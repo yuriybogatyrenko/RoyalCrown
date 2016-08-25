@@ -1,0 +1,183 @@
+@media screen and (max-width: 1199px) {
+  .hidden_980 {
+    display: none; }
+
+  .content_wrap {
+    width: 980px;
+    padding: 0 50px; }
+
+  .promo_code_section {
+    font-size: 14px; }
+
+  .index_header .main_section_header {
+    margin-right: -397px; }
+
+  .main_header_menu a {
+    padding: 0 6px; }
+
+  .header_popup_product_add_basket .icon_wrap, .header_popup_deferred .icon_wrap {
+    width: 60px; }
+
+  .advantages_block .advantages_title {
+    font-size: 18px; }
+
+  .comparison__block--table td {
+    width: 160px; }
+
+  .header_popup_deferred {
+    padding-right: 0;
+    width: 161px; }
+
+  .header_popup_deferred .product_item_deferred_btn .icon_wrap {
+    margin-left: 5px; }
+
+  .comparison_pop--img_wrapper img {
+    height: 140px; }
+
+  .sorting_section_item .product_item .product_item_last_price {
+    float: none; }
+  .sorting_section_item .product_item .product_item_price_wrap {
+    padding-right: 0;
+    margin: 0; }
+
+  .header_popup_product_add_basket .product_item_basket_btn .icon_wrap {
+    margin-left: 5px; }
+
+  .min_header .main_header_content {
+    padding: 0 0; }
+
+  .product_item .product_item_old_price {
+    left: 1;
+    text-align: center;
+    top: 100%;
+    margin-top: -10px; }
+  .product_item .product_item_action_bar {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0; }
+  .product_item .product_item_price_wrap {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    left: 0;
+    margin: 0 20px; }
+  .product_item .product_item_ads_line {
+    padding: 0 5px;
+    top: 5px; }
+
+  .products_grid_section .product_item_img img {
+    max-height: 200px; }
+
+  .sorting_section_item .products_grid_item:nth-child(n) {
+    width: 18.4%;
+    margin-right: 2%;
+    clear: none; }
+    .sorting_section_item .products_grid_item:nth-child(n):nth-child(5n) {
+      margin-right: 0; }
+    .sorting_section_item .products_grid_item:nth-child(n):nth-child(5n+6) {
+      clear: both; }
+  .sorting_section_item .product_item_img img {
+    max-height: 160px; }
+
+  .history_descr_more_content {
+    width: 45%; }
+
+  .history_descr_text_content {
+    width: 55%; }
+
+  .order_number_td {
+    width: 36%; }
+
+  .order_status_td, .price_item_td {
+    width: 37%; }
+
+  .advantages_slider .advantages_slider_title {
+    font-size: 18px; }
+  .advantages_slider .owl-controls {
+    bottom: 5px; }
+
+  .index_main_grid .discover_bl {
+    bottom: 30px; }
+  .index_main_grid .more_info_wrap .prop_bl {
+    margin-right: 16px;
+    width: 166px; }
+  .index_main_grid .index_product_item_title {
+    font-size: 46px; }
+  .index_main_grid .product_item_ads_line {
+    padding: 0 8px; }
+  .index_main_grid .index_grid_video .discover_bl {
+    bottom: 40px; }
+
+  .news_grid_item {
+    width: 30%; }
+
+  .grid-sizer {
+    width: 5%; }
+
+  .promo_code_section .close, .promo_code_section .close_hover {
+    right: 50px; }
+  .promo_code_section .timer_sect {
+    margin-right: 35px; }
+
+  .main_header .header_absolute_wrapper {
+    width: 880px;
+    min-width: 0; }
+
+  .basket_link .basket_price {
+    display: none; }
+
+  .header_popup_close {
+    right: 50px; }
+
+  .filters_submenu_item_text {
+    width: 90%; }
+
+  .w39percent {
+    width: 348px; }
+
+  .w32percent {
+    width: 278px; }
+
+  .w25percent {
+    width: 222px; }
+
+  .index_main_grid .index_grid_video .discover_bl {
+    bottom: 80px; }
+  .index_main_grid .product_item .product_item_action_bar {
+    float: right; }
+    .index_main_grid .product_item .product_item_action_bar .product_item_action_btn {
+      margin: 0; }
+  .index_main_grid .product_item .product_item_price_wrap {
+    float: left;
+    margin: 0;
+    left: 2px; }
+  .index_main_grid .product_item .the_image_bg {
+    background-size: 80% auto; }
+  .index_main_grid .first_line_wrap {
+    padding: 16px 0 16px; }
+  .index_main_grid .index_grid_item {
+    margin-right: 16px; }
+    .index_main_grid .index_grid_item .prop_bl {
+      margin-bottom: 16px; }
+      .index_main_grid .index_grid_item .prop_bl .h55percent {
+        margin-top: 286px; }
+      .index_main_grid .index_grid_item .prop_bl .h167_4percent {
+        margin-top: 572px; }
+      .index_main_grid .index_grid_item .prop_bl .h43_5percent {
+        margin-top: 96px; }
+      .index_main_grid .index_grid_item .prop_bl:last-child {
+        margin-bottom: 0; }
+    .index_main_grid .index_grid_item .index_product_item_title.fz46 {
+      font-size: 38px; }
+  .index_main_grid .more_section .prop_bl {
+    width: 278px;
+    margin-right: 16px; }
+    .index_main_grid .more_section .prop_bl:last-child {
+      width: 222px; }
+
+  .w59percent {
+    width: 516px; }
+
+  .juwelry_big_bg, .women_big_bg, .man_big_bg, .ceramic_big_bg, .corbel_big_bg {
+    background-size: contain !important; } }

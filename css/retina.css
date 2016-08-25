@@ -1,0 +1,234 @@
+.search_section .search_link .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 3px -1855px; }
+
+.search_open .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 3px -588px; }
+.search_open .hover_icon {
+  background-position: 3px -981px; }
+
+.login_link .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 6px -1159px; }
+.login_link .hover_icon {
+  background-position: 6px -1509px; }
+
+.comparison_link .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1784px; }
+.comparison_link .hover_icon {
+  background-position: 0 -1933px; }
+.comparison_link .active_icon {
+  background-position: 0 -1959px; }
+
+.deferred_list_link .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 2px -33px; }
+.deferred_list_link .hover_icon {
+  background-position: 2px -57px; }
+.deferred_list_link .active_icon {
+  background-position: 2px -82px; }
+
+.basket_link_icon_wrapper .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0px -108px; }
+.basket_link_icon_wrapper .hover_icon {
+  background-position: 0px -161px; }
+.basket_link_icon_wrapper .active_icon {
+  background-position: 0px -188px; }
+
+.main_footer .facebook_icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-position: 0 -350px;
+  background-size: 100px auto; }
+.main_footer .facebook_icon:hover {
+  background-position: 0 -325px; }
+.main_footer .instagram_icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-position: 0 -374px;
+  background-size: 100px auto; }
+.main_footer .instagram_icon:hover {
+  background-position: 0 -403px; }
+
+.footer_payment_methods .payment_methods_item .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto; }
+.footer_payment_methods .payment_methods_item.the1 .icon {
+  background-position: 0 -482px; }
+.footer_payment_methods .payment_methods_item.the2 .icon {
+  background-position: 2px -502px; }
+.footer_payment_methods .payment_methods_item.the3 .icon {
+  background-position: 2px -534px; }
+.footer_payment_methods .payment_methods_item.the4 .icon {
+  background-position: 1px -561px; }
+.footer_payment_methods .payment_methods_item.the5 .icon {
+  background-position: 1px -614px; }
+.footer_payment_methods .payment_methods_item.the6 .icon {
+  background-position: 1px -644px; }
+.footer_payment_methods .payment_methods_item.the7 .icon {
+  background-position: 1px -675px; }
+.footer_payment_methods .payment_methods_item.the8 .icon {
+  background-position: 0 -704px; }
+
+.footer_soc_item .footer_language_wrap .footer_language:after {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -239px; }
+.footer_soc_item .footer_language_wrap .footer_language:hover:after {
+  background-position: 0 -263px; }
+
+.product_item_comparison_btn .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-position: 0 -1784px;
+  background-size: 100px auto; }
+.product_item_comparison_btn .icon_checked {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -433px; }
+
+.product_item_deferred_btn .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-position: 0 -36px;
+  background-size: 100px auto; }
+.product_item_deferred_btn .icon_checked {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 2px -459px; }
+
+.product_item_basket_btn .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-position: 0 -110px;
+  background-size: 100px auto; }
+.product_item_basket_btn .icon_checked {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -136px; }
+
+.close_btn_anim .close_btn {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1908px; }
+.close_btn_anim .hover_close_btn {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1882px; }
+
+.header_popup_deferred .product_item_deferred_btn .icon {
+  background-position: 0 -85px; }
+.header_popup_deferred .product_item_deferred_btn .icon_hover {
+  background-position: 0px -36px; }
+.header_popup_deferred .product_item_deferred_btn .icon_checked {
+  background-position: 2px -459px; }
+.header_popup_deferred .product_item_deferred_btn .arrow {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1536px; }
+.header_popup_deferred .product_item_deferred_btn .arrow_hover {
+  background-position: 0 -1581px; }
+
+.header_popup_product_add_basket .product_item_basket_btn .icon {
+  background-position: 0 -189px; }
+.header_popup_product_add_basket .product_item_basket_btn .icon_hover {
+  background-position: 0px -109px; }
+.header_popup_product_add_basket .product_item_basket_btn .icon_checked {
+  background-position: 0px -136px; }
+.header_popup_product_add_basket .product_item_basket_btn .arrow {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1536px; }
+.header_popup_product_add_basket .product_item_basket_btn .arrow_hover {
+  background-position: 0 -1581px; }
+
+.header_popup_product_comparison .product_item_comparison_btn .icon {
+  background-position: 0 -1960px; }
+.header_popup_product_comparison .product_item_comparison_btn .icon_hover {
+  background-position: 0px -1784px; }
+.header_popup_product_comparison .product_item_comparison_btn .icon_checked {
+  background-position: 0px -433px; }
+.header_popup_product_comparison .product_item_comparison_btn .arrow {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1536px; }
+.header_popup_product_comparison .product_item_comparison_btn .arrow_hover {
+  opacity: 0;
+  background-position: 0 -1581px; }
+
+.discount_coupon_wrap .reset {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 2px -1549px; }
+
+.wrap_checkbox .input_checkbox:after {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -217px; }
+
+.product_grid_content .filter_section .filter_closed:after {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 1px -1482px; }
+
+.advantages_block .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto; }
+.advantages_block .icon_hover {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto; }
+.advantages_block .consultation_icon {
+  background-position: 3px -732px; }
+.advantages_block .consultation_icon.icon_hover {
+  background-position: 3px -879px; }
+.advantages_block .delivery_icon {
+  background-position: 5px -786px; }
+.advantages_block .delivery_icon.icon_hover {
+  background-position: 5px -1808px; }
+.advantages_block .payment_icon {
+  background-position: 0px -833px; }
+.advantages_block .payment_icon.icon_hover {
+  background-position: 0px -1735px; }
+
+.soc_units .soc_icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto; }
+.soc_units .soc_icon.the1 {
+  background-position: 4px -1714px; }
+.soc_units .soc_icon.the2 {
+  background-position: 5px -1669px; }
+.soc_units .soc_icon.the3 {
+  background-position: 3px -1692px; }
+.soc_units .soc_icon.the4 {
+  background-position: 1px -1595px; }
+.soc_units .soc_icon.the5 {
+  background-position: 3px -1619px; }
+.soc_units .soc_icon.the6 {
+  background-position: 4px -1645px; }
+
+.article_popup .short_nav_line .prev .icon, .article_popup .short_nav_line .next .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1406px; }
+.article_popup .short_nav_line .prev .icon_hover, .article_popup .short_nav_line .next .icon_hover {
+  background-position: 0 -1457px; }
+.article_popup .short_nav_line .next .icon {
+  background-position: 0 -1380px; }
+.article_popup .short_nav_line .next .icon_hover {
+  background-position: 0 -1431px; }
+.article_popup .full_nav_line .prev .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1406px; }
+.article_popup .full_nav_line .prev .icon_hover {
+  background-position: 0px -1457px; }
+.article_popup .full_nav_line .next .icon {
+  background: url(../img/start_sprite.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 0 -1381px; }
+.article_popup .full_nav_line .next .icon_hover {
+  background-position: 0px -1432px; }

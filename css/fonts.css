@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Oranienbaum";
+    src: url("../fonts/oranienbaum.eot");
+    src: url("../fonts/oranienbaum.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/oranienbaum.woff") format("woff"),
+    url("../fonts/oranienbaum.ttf") format("truetype"),
+    url("../fonts/oranienbaum.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HouschkaRB";
+    src: url("../fonts/houschkaroundedbold.eot");
+    src: url("../fonts/houschkaroundedbold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/houschkaroundedbold.woff") format("woff"),
+    url("../fonts/houschkaroundedbold.ttf") format("truetype"),
+    url("../fonts/houschkaroundedbold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNovaExCnReg";
+    src: url("../fonts/proximanovaexcn-reg.eot");
+    src: url("../fonts/proximanovaexcn-reg.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanovaexcn-reg.woff") format("woff"),
+    url("../fonts/proximanovaexcn-reg.ttf") format("truetype"),
+    url("../fonts/proximanovaexcn-reg.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova-RegIt";
+    src: url("../fonts/proximanova-regit.eot");
+    src: url("../fonts/proximanova-regit.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanova-regit.woff") format("woff"),
+    url("../fonts/proximanova-regit.ttf") format("truetype"),
+    url("../fonts/proximanova-regit.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova-Reg";
+    src: url("../fonts/proximanova-reg.eot");
+    src: url("../fonts/proximanova-reg.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanova-reg.woff") format("woff"),
+    url("../fonts/proximanova-reg.ttf") format("truetype"),
+    url("../fonts/proximanova-reg.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("../fonts/proximanova-bold.eot");
+    src: url("../fonts/proximanova-bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanova-bold.woff") format("woff"),
+    url("../fonts/proximanova-bold.ttf") format("truetype"),
+    url("../fonts/proximanova-bold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova-Black";
+    src: url("../fonts/proximanova-black.eot");
+    src: url("../fonts/proximanova-black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanova-black.woff") format("woff"),
+    url("../fonts/proximanova-black.ttf") format("truetype"),
+    url("../fonts/proximanova-black.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova-RegIt";
+    src: url("../fonts/proximanova-regit.eot");
+    src: url("../fonts/proximanova-regit.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanova-regit.woff") format("woff"),
+    url("../fonts/proximanova-regit.ttf") format("truetype"),
+    url("../fonts/proximanova-regit.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNovaExCn-Sbold";
+    src: url("../fonts/proximanovaexcn-sbold.eot");
+    src: url("../fonts/proximanovaexcn-sbold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proximanovaexcn-sbold.woff") format("woff"),
+    url("../fonts/proximanovaexcn-sbold.ttf") format("truetype"),
+    url("../fonts/proximanovaexcn-sbold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PTSans-r';
+    src: url('../fonts/PTS-reg.eot');
+    src: url('../fonts/PTS-reg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PTS-reg.woff') format('woff'),
+         url('../fonts/PTS-reg.ttf') format('truetype'),
+         url('../fonts/PTS-reg.svg#PTSans-r') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
