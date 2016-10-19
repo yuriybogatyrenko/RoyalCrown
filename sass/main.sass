@@ -26,3431 +26,3562 @@ $pn_rit: "ProximaNova-RegIt"
 $pnec_sb: "ProximaNovaExCn-Sbold"
 
 .table
-	display: table
-	width: 100%
-	height: 100%
+    display: table
+    width: 100%
+    height: 100%
+
 .tr
-	display: table-row
+    display: table-row
+
 .td
-	display: table-cell
+    display: table-cell
+
 .dib
-	display: inline-block
-	vertical-align: middle
+    display: inline-block
+    vertical-align: middle
 
 .red_text
-	color: $red_color
+    color: $red_color
+
 .gray_text
-	color: #595a5b
+    color: #595a5b
+
 .ruble10px
-	font-family: 'PTSans-r', 'PT Sans', serif
-	font-size: 10px
-	top: -4px
-	left: 5px
-	position: relative
+    font-family: 'PTSans-r', 'PT Sans', serif
+    font-size: 10px
+    top: -4px
+    left: 5px
+    position: relative
+
 .ruble15px
-	font-family: 'PTSans-r', 'PT Sans', serif
-	font-size: 15px
-	top: -4px
-	left: 2px
-	position: relative
+    font-family: 'PTSans-r', 'PT Sans', serif
+    font-size: 15px
+    top: -4px
+    left: 2px
+    position: relative
+
 body, input
-	font-family: $pnr
-	font-size: 15px
+    font-family: $pnr
+    font-size: 15px
+
 body.ovh
-	overflow: hidden
+    overflow: hidden
+
 body.safari_fix
-	.deferred_list_link .amount_deferred
-		line-height: 20px
+    .deferred_list_link .amount_deferred
+        line-height: 20px
+
 html, body
-	height: 100%
-	background: #000
+    height: 100%
+    background: #000
+
 .main_wrapper
-	position: relative
-	background: #000
-	min-height: 100%
-	color: #fff
-	min-width: 980px
-	padding-bottom: 272px
+    position: relative
+    background: #000
+    min-height: 100%
+    color: #fff
+    min-width: 980px
+    padding-bottom: 272px
+    -webkit-overflow-scrolling: touch
+
 .w59percent
-	width: 638px
+    width: 638px
+
 .w39percent
-	width: 420px
+    width: 420px
+
 .w32percent
-	width: 342px
+    width: 342px
+
 .w25percent
-	width: 274px
+    width: 274px
+
 .title30px
-	font-size: 30px
-	font-family: $o
-	letter-spacing: -0.8px
+    font-size: 30px
+    font-family: $o
+    letter-spacing: -0.8px
+
 .oranienbaum_title46px
-	font-size: 46px
-	font-family: $o
-	margin-bottom: 35px
-	letter-spacing: -1px
-	line-height: 1.1em
+    font-size: 46px
+    font-family: $o
+    margin-bottom: 35px
+    letter-spacing: -1px
+    line-height: 1.1em
+
 .standard_btn
-	border: 2px solid $red_color
-	color: $red_color
-	font-size: 28px
-	font-family: $o
-	padding: 6px 71px
-	background: transparent
-	display: inline-block
-	vertical-align: middle
-	+trans
-	&:hover
-		background: $red_color
-		color: #fff
+    border: 2px solid $red_color
+    color: $red_color
+    font-size: 28px
+    font-family: $o
+    padding: 6px 71px
+    background: transparent
+    display: inline-block
+    vertical-align: middle
+    +trans
+    &:hover
+        background: $red_color
+        color: #fff
 
 .noselect
-	-webkit-touch-callout: none /* iOS Safari */
-	-webkit-user-select: none   /* Chrome/Safari/Opera */
-	-khtml-user-select: none    /* Konqueror */
-	-moz-user-select: none      /* Firefox */
-	-ms-user-select: none       /* IE/Edge */
-	user-select: none
+    -webkit-touch-callout: none
+    /* iOS Safari */
+    -webkit-user-select: none
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none
+    /* Konqueror */
+    -moz-user-select: none
+    /* Firefox */
+    -ms-user-select: none
+    /* IE/Edge */
+    user-select: none
 
 .standard_white_btn
-	border: 2px solid #fff
-	font-size: 28px
-	font-family: $o
-	color: inherit
-	padding: 7px 49px
-	background: transparent
-	display: inline-block
-	vertical-align: middle
-	+trans
+    border: 2px solid #fff
+    font-size: 28px
+    font-family: $o
+    color: inherit
+    padding: 7px 49px
+    background: transparent
+    display: inline-block
+    vertical-align: middle
+    +trans
+
 .standard_white_btn:hover
-	background: $red_color
-	border-color: $red_color
+    background: $red_color
+    border-color: $red_color
 
 .standard_overlay
-	position: absolute
-	width: 100%
-	left: 0
-	top: 0
-	height: 100%
-	background: rgba(0,0,0,0.8)
-	+trans
+    position: absolute
+    width: 100%
+    left: 0
+    top: 0
+    height: 100%
+    background: rgba(0, 0, 0, 0.8)
+    +trans
+
 .standard_overlay:hover
-	background: rgba(0,0,0,0)
+    background: rgba(0, 0, 0, 0)
 
+.content_wrap
+    max-width: 1200px
+    min-width: 980px
+    padding: 0 60px
+    margin: 0 auto
 
-.content_wrap 
-	max-width: 1200px
-	min-width: 980px
-	padding: 0 60px
-	margin: 0 auto
 .countdown
-	color: #000
-	font-family: "Oranienbaum"
-	.item
-		float: left
-		margin-right: 14px
-		position: relative
-		width: 20px
-		text-align: center
-	.item:last-child
-		margin-right: -2px
-	.time_text
-		position: absolute
-		font-size: 8px
-		font-family: "ProximaNova-Reg"
-		bottom: -8px
-		right: -3px
-	.sep
-		position: absolute
-		top: 0
-		right: -9px
+    color: #000
+    font-family: "Oranienbaum"
+    .item
+        float: left
+        margin-right: 14px
+        position: relative
+        width: 20px
+        text-align: center
+    .item:last-child
+        margin-right: -2px
+    .time_text
+        position: absolute
+        font-size: 8px
+        font-family: "ProximaNova-Reg"
+        bottom: -8px
+        right: -3px
+    .sep
+        position: absolute
+        top: 0
+        right: -9px
 
 .red_link
-	&:hover
-		color: $red_color
+    &:hover
+        color: $red_color
 
 .red_link15px
-	color: $red_color
-	font-size: 15px
-	font-family: "ProximaNova-Reg"
-	text-decoration: underline
+    color: $red_color
+    font-size: 15px
+    font-family: "ProximaNova-Reg"
+    text-decoration: underline
+
 .red_link15px:hover
-	text-decoration: none
+    text-decoration: none
+
 .white_btn
-	font-family: "Oranienbaum"
-	font-size: 20px
-	border: 2px solid #fff
-	padding: 0 40px
-	line-height: 34px
-	display: inline-block
-	vertical-align: middle
-	transition: background 0.5s ease , border-color 0.3s ease
+    font-family: "Oranienbaum"
+    font-size: 20px
+    border: 2px solid #fff
+    padding: 0 40px
+    line-height: 34px
+    display: inline-block
+    vertical-align: middle
+    transition: background 0.5s ease, border-color 0.3s ease
 
 .white_btn:hover
-	background: $red_color
-	border-color: $red_color
-	color: #fff
+    background: $red_color
+    border-color: $red_color
+    color: #fff
+
 .promo_code_section
-	background: $red_color
-	color: #fff
-	font-family: "Oranienbaum"
-	font-size: 16px
-	text-transform: uppercase
-	padding: 0
-	letter-spacing: -0.2px
-	position: absolute
-	top: 0
-	left: 0
-	width: 100%
-	height: 70px
-	line-height: 70px
-	.content_wrap
-		position: relative
-	.close, .close_hover
-		width: 9px
-		height: 9px
-		position: absolute
-		right: 60px
-		top: 50%
-		margin-top: -5px
-		cursor: pointer
-		+sprite(close_promo)
-		z-index: 2
-		+trans
-	.close_hover
-		+sprite(close_promo_hover)
-		opacity: 0
-		z-index: 1
+    background: $red_color
+    color: #fff
+    font-family: "Oranienbaum"
+    font-size: 16px
+    text-transform: uppercase
+    padding: 0
+    letter-spacing: -0.2px
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 70px
+    line-height: 70px
+    .content_wrap
+        position: relative
+    .close, .close_hover
+        width: 9px
+        height: 9px
+        position: absolute
+        right: 60px
+        top: 50%
+        margin-top: -5px
+        cursor: pointer
+        +sprite(close_promo)
+        z-index: 2
+        +trans
+    .close_hover
+        +sprite(close_promo_hover)
+        opacity: 0
+        z-index: 1
 
-	.close:hover
-		opacity: 0
-		& + .close_hover
-			opacity: 1
+    .close:hover
+        opacity: 0
+        & + .close_hover
+            opacity: 1
 
-	.percent_num, .promo_code_num, #countdown 
-		color: #18191b
-	.percent_num
-		margin-right: 5px
-	.discount_text
-		margin-right: 17px
-	.promo_code_num
-		margin-left: 5px
-	.timer_sect
-		float: right
-		margin-right: 56px
-	.timer_text
-		margin-right: 14px
+    .percent_num, .promo_code_num, #countdown
+        color: #18191b
+    .percent_num
+        margin-right: 5px
+    .discount_text
+        margin-right: 17px
+    .promo_code_num
+        margin-left: 5px
+    .timer_sect
+        float: right
+        margin-right: 56px
+    .timer_text
+        margin-right: 14px
 
 .main_slider_section
-	background: #000
-	position: relative
-	margin-top: -170px
-	height: 670px
+    background: #000
+    position: relative
+    margin-top: -170px
+    height: 670px
 
-	&:before, &:after
-		position: absolute
-		top: 0
-		left: 0
-		width: 20%
-		height: 100%
-		content: ''
-		display: block
-		z-index: 2
-		background-image: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)
-		background-image: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)
-		background-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)
+    &:before, &:after
+        position: absolute
+        top: 0
+        left: 0
+        width: 20%
+        height: 100%
+        content: ''
+        display: block
+        z-index: 2
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
 
-	&:after
-		left: auto
-		right: 0
-		background-image: -webkit-linear-gradient(right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)
-		background-image: -o-linear-gradient(right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)
-		background-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)
-	.slide_img
-		font-size: 0px
-		position: absolute
-		width: 100%
-		height: 1000px
-		line-height: 1000px
-		z-index: -1
-		vertical-align: middle
-		text-align: center
-		top: 50%
-		margin-top: -500px
-		+trans
-		img
-			vertical-align: middle
-			display: inline-block
-	.slide_overlay
-		content: ''
-		left: 0
-		width: 100%
-		height: 100%
-		top: 0
-		z-index: 1
-		background: rgba(0,0,0,0.6)
-		position: absolute
-		+trans
-	.content_wrap 
-		position: relative
-	.slide_content
-		position: absolute
-		width: 100%
-		left: 0
-		height: 100%
-		top: 0
-		text-align: center
-		z-index: 2
-	.main_slider_title
-		font-size: 97px
-		font-family: "Oranienbaum"
-		margin-top: 351px
-		line-height: 1em
-		margin-bottom: 5px
-		letter-spacing: -2px
-	.main_slider_descr
-		font-size: 18px
-		margin-bottom: 5px
-	.main_slider_model
-		font-size: 13px
-		font-family: $pnr
-		margin-bottom: 26px
-		.model_link
-			color: $red_color
-			text-decoration: underline
-	.main_slider, .owl-wrapper
-		height: 670px
-	.owl-controls
-		position: absolute
-		width: 100%
-		bottom: 30px
-	.owl-pagination
-		text-align: center
-		.owl-page
-			margin: 0 5px
-			display: inline-block
-			vertical-align: middle
-			position: relative
-			height: 20px
-			width: 20px
-			overflow: hidden
-		.owl-page_icon
-			position: absolute
-			left: 50%
-			top: 50%
-			margin-left: -4px
-			margin-top: -4px
-			width: 8px
-			height: 8px
-			border-radius: 50%
-			background: rgba(255,255,255,0.2)
-			+trans
-		canvas
-			position: absolute
-			left: 1px
-			top: 1px
-		.owl-page.active
-			.owl-page_icon
-				background: #fff
-		.owl-page:hover
-			.owl-page_icon
-				background: $red_color
-	.owl-item
-		text-align: center
-		height: 100%
+    &:after
+        left: auto
+        right: 0
+        background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
+        background-image: -o-linear-gradient(right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)
+    .slide_img
+        font-size: 0px
+        position: absolute
+        width: 100%
+        height: 1000px
+        line-height: 1000px
+        z-index: -1
+        vertical-align: middle
+        text-align: center
+        top: 50%
+        margin-top: -500px
+        +trans
+        img
+            vertical-align: middle
+            display: inline-block
+    .slide_overlay
+        content: ''
+        left: 0
+        width: 100%
+        height: 100%
+        top: 0
+        z-index: 1
+        background: rgba(0, 0, 0, 0.6)
+        position: absolute
+        +trans
+    .content_wrap
+        position: relative
+    .slide_content
+        position: absolute
+        width: 100%
+        left: 0
+        height: 100%
+        top: 0
+        text-align: center
+        z-index: 2
+    .main_slider_title
+        font-size: 97px
+        font-family: "Oranienbaum"
+        margin-top: 351px
+        line-height: 1em
+        margin-bottom: 5px
+        letter-spacing: -2px
+    .main_slider_descr
+        font-size: 18px
+        margin-bottom: 5px
+    .main_slider_model
+        font-size: 13px
+        font-family: $pnr
+        margin-bottom: 26px
+        .model_link
+            color: $red_color
+            text-decoration: underline
+    .main_slider, .owl-wrapper
+        height: 670px
+    .owl-controls
+        position: absolute
+        width: 100%
+        bottom: 30px
+    .owl-pagination
+        text-align: center
+        .owl-page
+            margin: 0 5px
+            display: inline-block
+            vertical-align: middle
+            position: relative
+            height: 20px
+            width: 20px
+            overflow: hidden
+        .owl-page_icon
+            position: absolute
+            left: 50%
+            top: 50%
+            margin-left: -4px
+            margin-top: -4px
+            width: 8px
+            height: 8px
+            border-radius: 50%
+            background: rgba(255, 255, 255, 0.2)
+            +trans
+        canvas
+            position: absolute
+            left: 1px
+            top: 1px
+        .owl-page.active
+            .owl-page_icon
+                background: #fff
+        .owl-page:hover
+            .owl-page_icon
+                background: $red_color
+    .owl-item
+        text-align: center
+        height: 100%
 
-	&:hover
-		.slide_overlay
-			background: rgba(0,0,0,0.7)
-		.slide_img
-			transform: scale(0.95)
-			
-
+    &:hover
+        .slide_overlay
+            background: rgba(0, 0, 0, 0.7)
+        .slide_img
+            transform: scale(0.95)
 
 .advantages_slider
-	background: #000
-	.owl-controls
-		position: absolute
-		width: 100%
-		bottom: 11px
-	.owl-pagination
-		text-align: center
-		.owl-page
-			margin: 0
-			display: inline-block
-			vertical-align: middle
-			position: relative
-			height: 20px
-			width: 15px
-			overflow: hidden
-		.owl-page_icon
-			position: absolute
-			left: 50%
-			top: 50%
-			margin-left: -2px
-			margin-top: -2px
-			width: 5px
-			height: 5px
-			border-radius: 50%
-			background: rgba(255,255,255,0.2)
-			+trans
-		canvas
-			position: absolute
-			left: 1px
-			top: 1px
-		.owl-page.active
-			.owl-page_icon
-				background: #fff
-		.owl-page:hover
-			.owl-page_icon
-				background: $red_color
+    background: #000
+    .owl-controls
+        position: absolute
+        width: 100%
+        bottom: 11px
+    .owl-pagination
+        text-align: center
+        .owl-page
+            margin: 0
+            display: inline-block
+            vertical-align: middle
+            position: relative
+            height: 20px
+            width: 15px
+            overflow: hidden
+        .owl-page_icon
+            position: absolute
+            left: 50%
+            top: 50%
+            margin-left: -2px
+            margin-top: -2px
+            width: 5px
+            height: 5px
+            border-radius: 50%
+            background: rgba(255, 255, 255, 0.2)
+            +trans
+        canvas
+            position: absolute
+            left: 1px
+            top: 1px
+        .owl-page.active
+            .owl-page_icon
+                background: #fff
+        .owl-page:hover
+            .owl-page_icon
+                background: $red_color
 
 .search_section_wrap
-	width: 100%
-	left: 0
-	top: 0
-	position: absolute
-	display: none
-	background: #fff
-	z-index: 100	
-	padding: 21px 0
+    width: 100%
+    left: 0
+    top: 0
+    position: absolute
+    display: none
+    background: #fff
+    z-index: 100
+    padding: 21px 0
 
 .search_section
-	z-index: 1
-	text-align: left
-	position: relative
-	.content_wrap
-		position: relative
-	.search_section_close
-		position: absolute
-		right: 60px
-		top: 50%
-		margin-top: -10px
-	.search_link
-		width: 22px
-		height: 22px
-		display: inline-block
-		vertical-align: middle
-		position: relative
-		outline: none
-		border: none
-		cursor: pointer
-		background: transparent
-		margin-right: 5px
+    z-index: 1
+    text-align: left
+    position: relative
+    .content_wrap
+        position: relative
+    .search_section_close
+        position: absolute
+        right: 60px
+        top: 50%
+        margin-top: -10px
+    .search_link
+        width: 22px
+        height: 22px
+        display: inline-block
+        vertical-align: middle
+        position: relative
+        outline: none
+        border: none
+        cursor: pointer
+        background: transparent
+        margin-right: 5px
 
-		.icon	
-			+sprite(loup_black, $pos:"abs_middle")
-			opacity: 0
-			+trans
-		.hover_icon
-			+sprite(loup_hover, $pos:"abs_middle")
-		.default_icon
-			opacity: 1
-		&:hover
-			.icon
-				opacity: 0
-			.hover_icon
-				opacity: 1
-	.search_input
-		font-family: "ProximaNova-Reg"
-		color: #000
-		font-size: 15px
-		display: inline-block
-		vertical-align: middle
+        .icon
+            +sprite(loup_black, $pos: "abs_middle")
+            opacity: 0
+            +trans
+        .hover_icon
+            +sprite(loup_hover, $pos: "abs_middle")
+        .default_icon
+            opacity: 1
+        &:hover
+            .icon
+                opacity: 0
+            .hover_icon
+                opacity: 1
+    .search_input
+        font-family: "ProximaNova-Reg"
+        color: #000
+        font-size: 15px
+        display: inline-block
+        vertical-align: middle
+
 .main_header
-	color: #fff
-	background: #000
-	z-index: 100
-	position: relative
-	top: 0
-	z-index: 160
-	.header_absolute_wrapper 
-		position: relative
-		height: 63px
-		max-width: 1080px
-	.header_overlay
-		opacity: 0
-		left: 0
-		top: -1px
-		z-index: -1
-		width: 100%
-		height: 100%
-		position: absolute
-		background: rgba(0, 0, 0, 0.8)
-		+trans
-	.logo
-		height: 61px
-		width: 120px
-		display: inline-block
-		vertical-align: middle
-		background-position: center center
-		+retina-bg("big_logo.png", "big_logo2x.png")
-		background-repeat: no-repeat
-	.logo_section
-		text-align: center
-		padding: 87px 0 25px
-	.logo:hover:after
-		background-position: 0 -289px
+    color: #fff
+    background: #000
+    position: relative
+    top: 0
+    z-index: 160
+
+    .header_absolute_wrapper
+        position: relative
+        height: 63px
+        max-width: 1080px
+    .header_overlay
+        opacity: 0
+        left: 0
+        top: -1px
+        z-index: -1
+        width: 100%
+        height: 100%
+        position: absolute
+        background: rgba(0, 0, 0, 0.8)
+        +trans
+    .logo
+        height: 61px
+        width: 120px
+        display: inline-block
+        vertical-align: middle
+        background-position: center center
+        +retina-bg("big_logo.png", "big_logo2x.png")
+        background-repeat: no-repeat
+    .logo_section
+        text-align: center
+        padding: 87px 0 25px
+    .logo:hover:after
+        background-position: 0 -289px
+
 .main_header.index_header
-	background: transparent
+    background: transparent
+
 .main_header.popup_open
-	overflow: auto
-	height: 100%
-	width: 100%
-	left: 0
-	top: 0
-	position: fixed
-	background: #000
-	
+    overflow: auto
+    height: 100%
+    width: 100%
+    left: 0
+    top: 0
+    position: fixed
+    background: #000
 
-.main_wrapper
-	&.inside_page
-		.main_header
-			padding-top: 70px
+.header_popup_wrapper
+    position: absolute
+    top: 172px
+    z-index: 500
+    right: 0
+    left: 0
 
-		.main_header_content
-			border-top: none
+.header__popup-placeholder
+    height: 65px
 
-	&.min_header
-		position: relative
-		z-index: 160
+body
+    -webkit-overflow-scrolling: touch
+    &.inside_page
+        .main_header
+            padding-top: 70px
 
-		.promo_code_section
-			display: none
+        .main_header_content
+            border-top: none
 
-		.header_overlay
-			opacity: 1
+        .header_popup_wrapper
+            position: absolute
+            left: 0
+            right: 0
+            top: 70px
 
-		.main_header_content
-			border-top: none
-		
-		.main_header_content
-			// position: fixed
-			// top: 0
-			// left: 0
-			// width: 100%
-			// z-index: 100
-			.fixed_header_bg
-				background-color: rgba(0,0,0,0.8)
-		.promo_code_section, .logo_section
-			// display: none
-		.min_logo
-			opacity: 1
-			left: 0
-		.main_section_header
-			right: 0
-			margin-right: 0 !important
+    &.min_header
+        .promo_code_section
+            //display: none
 
-		.header_popup_wrapper
-			position: fixed
-			top: 0
-			bottom: auto
-			left: 0
-			right: 0
+        .header_overlay
+            opacity: 1
 
-		.popup_open
-			.header_popup_wrapper
-				z-index: 20
-				bottom: 0
-				overflow: auto !important
+        .main_header_content
+            border-top: none
+
+        .main_header_content
+            // position: fixed
+            // top: 0
+            // left: 0
+            // width: 100%
+            // z-index: 100
+            .fixed_header_bg
+                background-color: rgba(0, 0, 0, 0.8)
+        .min_logo
+            opacity: 1
+            left: 0
+        .main_section_header
+            right: 0
+            margin-right: 0 !important
 
 
+        &:not(.inside_page), &.inside_fixed
+            .header_popup_wrapper
+                position: fixed
+                top: 0 !important
+                bottom: auto
+                left: 0
+                right: 0
+
+
+        .popup_open
+            .header_popup_wrapper
+                z-index: 20
+                bottom: 0
+                overflow: auto !important
 
 .main_header_content
-	border-top: 1px solid rgba(255,255,255,0.1)
-	border-bottom: 1px solid rgba(255,255,255,0.1)
-	text-align: center
-	position: relative
-	overflow: hidden
-	background-color: rgba(0,0,0,0)
-	transition: background-color 0.5s ease
-	-moz-transition: background-color 0.5s ease
-	-webkit-transition: background-color 0.5s ease
-	-ms-transition: background-color 0.5s ease
-	-o-transition: background-color 0.5s ease
+    border-top: 1px solid rgba(255, 255, 255, 0.1)
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+    text-align: center
+    position: relative
+    overflow: hidden
+    background-color: rgba(0, 0, 0, 0)
+    transition: background-color 0.5s ease
+    -moz-transition: background-color 0.5s ease
+    -webkit-transition: background-color 0.5s ease
+    -ms-transition: background-color 0.5s ease
+    -o-transition: background-color 0.5s ease
 
-	.fixed_header_bg
-		position: absolute
-		top: 0
-		left: 0
-		width: 100%
-		height: 100%
-		background-color: rgba(0,0,0,0)
+    .fixed_header_bg
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0)
 
 .main_section_header
-	position: absolute
-	top: 0
-	right: 0
-	margin-right: 0
-	+trans
+    position: absolute
+    top: 0
+    right: 0
+    margin-right: 0
+    +trans
+
 .index_header .main_section_header
-	right: 50%
-	margin-right: -490px
+    right: 50%
+    margin-right: -490px
+
 .main_section_header_item
-	float: left
-	min-width: 63px
-	height: 63px
-	border-left: 1px solid rgba(255,255,255,0.1)
-	position: relative
-	cursor: pointer
-	line-height: 64px
-	.icon
-		opacity: 0
-		position: absolute
-		left: 50%
-		top: 50%
-		margin-left: -11px
-		margin-top: -11px
-		width: 22px
-		height: 22px
-		+trans
+    float: left
+    min-width: 63px
+    height: 63px
+    border-left: 1px solid rgba(255, 255, 255, 0.1)
+    position: relative
+    cursor: pointer
+    line-height: 64px
+    .icon
+        opacity: 0
+        position: absolute
+        left: 50%
+        top: 50%
+        margin-left: -11px
+        margin-top: -11px
+        width: 22px
+        height: 22px
+        +trans
+
 .main_header
-	.min_logo
-		position: absolute
-		left: 0
-		height: 100%
-		width: 90px
-		.icon
-			width: 100%
-			position: absolute
-			left: 0
-			top: 0
-			height: 100%
-			line-height: 63px
-			background: url(../img/min_logo.png) no-repeat left center
-			+retina-bg("min_logo.png", "min_logo2x.png")
-			+trans
-			opacity: 1
-		.icon_hover
-			opacity: 0
-			background: url(../img/min_logo_hover.png) no-repeat left center
-			+retina-bg("min_logo_hover.png", "min_logo_hover2x.png")
-		&:hover
-			.icon
-				opacity: 0
-			.icon_hover
-				opacity: 1
+    .min_logo
+        position: absolute
+        left: 0
+        height: 100%
+        width: 90px
+        .icon
+            width: 100%
+            position: absolute
+            left: 0
+            top: 0
+            height: 100%
+            line-height: 63px
+            background: url(../img/min_logo.png) no-repeat left center
+            +retina-bg("min_logo.png", "min_logo2x.png")
+            +trans
+            opacity: 1
+        .icon_hover
+            opacity: 0
+            background: url(../img/min_logo_hover.png) no-repeat left center
+            +retina-bg("min_logo_hover.png", "min_logo_hover2x.png")
+        &:hover
+            .icon
+                opacity: 0
+            .icon_hover
+                opacity: 1
+
 .index_header
-	.min_logo
-		position: absolute
-		left: -50px
-		opacity: 0
-		height: 100%
-		width: 90px
-		+trans
-		.icon
-			width: 100%
-			position: absolute
-			left: 0
-			top: 0
-			height: 100%
-			line-height: 63px
-			background: url(../img/min_logo.png) no-repeat left center
-			background-size: 47px auto
-			+retina-bg("min_logo.png", "min_logo2x.png")
-			+trans
-			opacity: 1
-		.icon_hover
-			opacity: 0
-			background: url(../img/min_logo_hover.png) no-repeat left center
-			background-size: 47px auto
-			+retina-bg("min_logo_hover.png", "min_logo_hover2x.png")
-		&:hover
-			.icon
-				opacity: 0
-			.icon_hover
-				opacity: 1
-
-
+    .min_logo
+        position: absolute
+        left: -50px
+        opacity: 0
+        height: 100%
+        width: 90px
+        +trans
+        .icon
+            width: 100%
+            position: absolute
+            left: 0
+            top: 0
+            height: 100%
+            line-height: 63px
+            background: url(../img/min_logo.png) no-repeat left center
+            background-size: 47px auto
+            +retina-bg("min_logo.png", "min_logo2x.png")
+            +trans
+            opacity: 1
+        .icon_hover
+            opacity: 0
+            background: url(../img/min_logo_hover.png) no-repeat left center
+            background-size: 47px auto
+            +retina-bg("min_logo_hover.png", "min_logo_hover2x.png")
+        &:hover
+            .icon
+                opacity: 0
+            .icon_hover
+                opacity: 1
 
 .main_section_header_item:last-child
-	border-right: 1px solid rgba(255,255,255,0.1)
+    border-right: 1px solid rgba(255, 255, 255, 0.1)
+
 .main_section_header_item.active
-	background: #fff
-	color: #000
+    background: #fff
+    color: #000
+
 .main_header_menu
-	font-family: "ProximaNovaExCnReg"
-	padding: 0 12px
-	li
-		float: left
-		font-size: 20px
-	a
-		line-height: 64px
-		padding: 0 12.5px
-		display: block
-		+trans
-	a:hover
-		color: $red_color
-	a:active
-		background: #fff
-		color: #000
-	li:last-child
-		margin-right: 0
+    font-family: "ProximaNovaExCnReg"
+    padding: 0 12px
+    li
+        float: left
+        font-size: 20px
+    a
+        line-height: 64px
+        padding: 0 12.5px
+        display: block
+        +trans
+    a:hover
+        color: $red_color
+    a:active
+        background: #fff
+        color: #000
+    li:last-child
+        margin-right: 0
+
 .amount_circle
-	overflow: hidden
-	text-overflow: ellipsis
+    overflow: hidden
+    text-overflow: ellipsis
+
 .search_open
-	.icon
-		+sprite(loup, $pos: "abs_middle")
-	.hover_icon
-		+sprite(loup_hover, $pos: "abs_middle")
-	.default_icon
-		opacity: 1
+    .icon
+        +sprite(loup, $pos: "abs_middle")
+    .hover_icon
+        +sprite(loup_hover, $pos: "abs_middle")
+    .default_icon
+        opacity: 1
+
 .search_open:hover
-	.icon
-		opacity: 0
-	.hover_icon
-		opacity: 1
+    .icon
+        opacity: 0
+    .hover_icon
+        opacity: 1
+
 .login_link
-	.icon
-		+sprite(person, $pos: "abs_middle")
-	.hover_icon
-		+sprite(person_hover, $pos: "abs_middle")
-	.default_icon
-		opacity: 1
+    .icon
+        +sprite(person, $pos: "abs_middle")
+    .hover_icon
+        +sprite(person_hover, $pos: "abs_middle")
+    .default_icon
+        opacity: 1
+
 .login_link:hover
-	.icon
-		opacity: 0
-	.hover_icon
-		opacity: 1
+    .icon
+        opacity: 0
+    .hover_icon
+        opacity: 1
 
 .comparison_link
-	.icon
-		+sprite(compare_white)
-	.hover_icon
-		+sprite(compare_hover)
-	.active_icon
-		+sprite(compare_active)
-	.default_icon
-		opacity: 1
+    .icon
+        +sprite(compare_white)
+    .hover_icon
+        +sprite(compare_hover)
+    .active_icon
+        +sprite(compare_active)
+    .default_icon
+        opacity: 1
+
 .comparison_link:hover
-	.icon
-		opacity: 0
-	.hover_icon
-		opacity: 1
+    .icon
+        opacity: 0
+    .hover_icon
+        opacity: 1
+
 .comparison_link.active
-	.icon
-		opacity: 0
-	.active_icon
-		opacity: 1
+    .icon
+        opacity: 0
+    .active_icon
+        opacity: 1
 
 .deferred_list_link
-	.amount_deferred
-		position: absolute
-		width: 18px
-		height: 18px
-		line-height: 18px
-		padding-top: 1px
-		text-align: center
-		border-radius: 50%
-		right: 7px
-		top: 7px
-		// border: 1px solid rgba(255,255,255,0.2)
-		font-size: 12px
-		color: #fff
-		box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2)
-		font-family: "ProximaNova-Reg"
-	.icon
-		+sprite(star_white, $pos: "abs_middle")
-	.hover_icon
-		+sprite(star_red, $pos: "abs_middle")
-	.active_icon
-		+sprite(star_black, $pos: "abs_middle")
-	.default_icon
-		opacity: 1
+    .amount_deferred
+        position: absolute
+        width: 18px
+        height: 18px
+        line-height: 18px
+        padding-top: 1px
+        text-align: center
+        border-radius: 50%
+        right: 7px
+        top: 7px
+        // border: 1px solid rgba(255,255,255,0.2)
+        font-size: 12px
+        color: #fff
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2)
+        font-family: "ProximaNova-Reg"
+    .icon
+        +sprite(star_white, $pos: "abs_middle")
+    .hover_icon
+        +sprite(star_red, $pos: "abs_middle")
+    .active_icon
+        +sprite(star_black, $pos: "abs_middle")
+    .default_icon
+        opacity: 1
+
 .deferred_list_link:hover
-	.icon
-		opacity: 0
-	.hover_icon
-		opacity: 1
+    .icon
+        opacity: 0
+    .hover_icon
+        opacity: 1
+
 .deferred_list_link.active
-	.icon
-		opacity: 0
-	.active_icon
-		opacity: 1
-	.amount_deferred
-		color: #000
+    .icon
+        opacity: 0
+    .active_icon
+        opacity: 1
+    .amount_deferred
+        color: #000
 
 .basket_link
-	padding: 0 20px
-	font-size: 19px
-	.basket_price
-		display: inline-block
-		vertical-align: middle
+    padding: 0 20px
+    font-size: 19px
+    .basket_price
+        display: inline-block
+        vertical-align: middle
+
 .basket_link_icon_wrapper
-	position: relative
-	display: inline-block
-	vertical-align: middle
-	width: 20px
-	height: 20px
-	margin-right: 10px
-	top: -1px
-	.amount_basket
-		position: absolute
-		width: 20px
-		height: 20px
-		line-height: 20px
-		text-align: center
-		border-radius: 50%
-		right: -15px
-		top: -15px
-		background: $red_color
-		font-size: 12px
-		color: #fff 
-		padding-top: 1px
-		-webkit-box-sizing: border-box
-		-moz-box-sizing: border-box
-		box-sizing: border-box
-		font-family: "ProximaNova-Reg"
-	.icon
-		+sprite(cart_white, $pos: "abs_middle")
-	.hover_icon
-		+sprite(cart_hover, $pos: "abs_middle")
-	.active_icon
-		+sprite(cart_active, $pos: "abs_middle")
-	.default_icon
-		opacity: 1
+    position: relative
+    display: inline-block
+    vertical-align: middle
+    width: 20px
+    height: 20px
+    margin-right: 10px
+    top: -1px
+    .amount_basket
+        position: absolute
+        width: 20px
+        height: 20px
+        line-height: 20px
+        text-align: center
+        border-radius: 50%
+        right: -15px
+        top: -15px
+        background: $red_color
+        font-size: 12px
+        color: #fff
+        padding-top: 1px
+        -webkit-box-sizing: border-box
+        -moz-box-sizing: border-box
+        box-sizing: border-box
+        font-family: "ProximaNova-Reg"
+    .icon
+        +sprite(cart_white, $pos: "abs_middle")
+    .hover_icon
+        +sprite(cart_hover, $pos: "abs_middle")
+    .active_icon
+        +sprite(cart_active, $pos: "abs_middle")
+    .default_icon
+        opacity: 1
+
 .basket_link:hover
-	.icon
-		opacity: 0
-	.hover_icon
-		opacity: 1
+    .icon
+        opacity: 0
+    .hover_icon
+        opacity: 1
+
 .basket_link.active
-	.icon
-		opacity: 0
-	.active_icon
-		opacity: 1
-	.amount_deferred
-		color: #000
+    .icon
+        opacity: 0
+    .active_icon
+        opacity: 1
+    .amount_deferred
+        color: #000
 
 .product_calculator
-	.result_wrap
-		font-size: 16px
-		margin: 0 15px
-	.result 
-		width: 20px
-		text-align: center
-	.calc_btn
-		width: 20px
-		height: 20px
-		cursor: pointer
-		position: relative
+    .result_wrap
+        font-size: 16px
+        margin: 0 15px
+    .result
+        width: 20px
+        text-align: center
+    .calc_btn
+        width: 20px
+        height: 20px
+        cursor: pointer
+        position: relative
 
-		&:hover
-			&:after, &:before
-				background: #ff3b28
-	.calc_btn:after
-		content: ''
-		position: absolute
-		width: 100%
-		height: 1px
-		left: 0
-		top: 50%
-		background: #000
-	.plus:before
-		content: ''
-		position: absolute
-		width: 1px
-		height: 100%
-		left: 50%
-		top: 0
-		background: #000
+        &:hover
+            &:after, &:before
+                background: #ff3b28
+    .calc_btn:after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 1px
+        left: 0
+        top: 50%
+        background: #000
+    .plus:before
+        content: ''
+        position: absolute
+        width: 1px
+        height: 100%
+        left: 50%
+        top: 0
+        background: #000
 
 .main_content_wrapper
-	padding-top: 43px
-	padding-bottom: 56px
-	position: relative
-	z-index: 1
+    padding-top: 43px
+    padding-bottom: 56px
+    position: relative
+    z-index: 1
+
 .left_sidebar_menu_title
-	font-family: "ProximaNovaExCnReg"
-	font-size: 18px
-	color: #3f3f3f
-	text-transform: uppercase
-	padding: 0 15px 15px
-	border-bottom: 1px solid rgba(255,255,255,0.1)
+    font-family: "ProximaNovaExCnReg"
+    font-size: 18px
+    color: #3f3f3f
+    text-transform: uppercase
+    padding: 0 15px 15px
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+
 .left_sidebar
-	float: left
-	width: 200px
-	padding-top: 5px
+    float: left
+    width: 200px
+    padding-top: 5px
+
 .right_content_container
-	margin-left: 220px
+    margin-left: 220px
+
 .personal_data .right_content_container
-	max-width: 640px
-.right_content_container > * 
-	float: left
-	width: 100%
+    max-width: 640px
+
+.right_content_container > *
+    float: left
+    width: 100%
+
 .left_sidebar_menu
-	font-family: "ProximaNova-Reg"
-	font-size: 15px
-	color: #3f3f3f
-	padding-top: 14px
-	max-width: 180px
-	li
-		padding: 10px 15px
-		+trans
-	li.active
-		color: #fff
-	li:hover
-		color: $red_color
-	li.active:hover
-		color: #fff
+    font-family: "ProximaNova-Reg"
+    font-size: 15px
+    color: #3f3f3f
+    padding-top: 14px
+    max-width: 180px
+    li
+        padding: 10px 15px
+        +trans
+    li.active
+        color: #fff
+    li:hover
+        color: $red_color
+    li.active:hover
+        color: #fff
+
 .left_sidebar.black_sidebar
-	.left_sidebar_menu_title
-		border-bottom: 1px solid #f0f0f0
-	.left_sidebar_menu
-		color: #afafaf
-	li.active
-		color: #000
+    .left_sidebar_menu_title
+        border-bottom: 1px solid #f0f0f0
+    .left_sidebar_menu
+        color: #afafaf
+    li.active
+        color: #000
+
 .standard_m_title
-	font-family: "Oranienbaum"
-	font-size: 46px
-	letter-spacing: -1px
-	margin-bottom: 25px
+    font-family: "Oranienbaum"
+    font-size: 46px
+    letter-spacing: -1px
+    margin-bottom: 25px
 
 .standard_form_title
-	font-size: 30px
-	font-family: $o
-	letter-spacing: -0.7px
-	margin-bottom: 30px
+    font-size: 30px
+    font-family: $o
+    letter-spacing: -0.7px
+    margin-bottom: 30px
 
 .standard_form_grid_section
-	margin-bottom: 10px
-	.standard_form_grid_section_left
-		float: left
-		width: 48%
-		margin-right: 4%
-	.standard_form_grid_section_right
-		float: right
-		width: 48%
+    margin-bottom: 10px
+    .standard_form_grid_section_left
+        float: left
+        width: 48%
+        margin-right: 4%
+    .standard_form_grid_section_right
+        float: right
+        width: 48%
+
 .line_form_title
-	font-size: 15px
-	font-family: $pnr
-	margin-bottom: 5px
+    font-size: 15px
+    font-family: $pnr
+    margin-bottom: 5px
+
 .line_form
-	margin-bottom: 18px
-	input
-		width: 100%
-		height: 38px
-		padding: 0 10px
-		font-size: 15px
-		border: 1px solid #d1d1d1
-	textarea
-		width: 100%
-		height: 150px
-		padding: 10px 15px
-		resize: none
-		border: none
-		outline: none
-		font-family: $pnr
-		font-size: 15px
-.line_form.hidden 
-	opacity: 0
-	position: relative
+    margin-bottom: 18px
+    input
+        width: 100%
+        height: 38px
+        padding: 0 10px
+        font-size: 15px
+        border: 1px solid #d1d1d1
+    textarea
+        width: 100%
+        height: 150px
+        padding: 10px 15px
+        resize: none
+        border: none
+        outline: none
+        font-family: $pnr
+        font-size: 15px
+
+.line_form.hidden
+    opacity: 0
+    position: relative
+
 .line_form.hidden:after
-	content: ''
-	position: absolute
-	width: 100%
-	height: 100%
-	z-index: 100
-	left: 0
-	top: 0
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: 100
+    left: 0
+    top: 0
+
 .standard_form_button
-	border: 2px solid #000
-	font-size: 28px
-	font-family: $o
-	color: inherit
-	padding: 7px 95px
-	background: transparent
-	+trans
-	&.db
-		display: block
-		width: 100%
-		padding-left: 0
-		padding-right: 0
-		text-align: center
+    border: 2px solid #000
+    font-size: 28px
+    font-family: $o
+    color: inherit
+    padding: 7px 95px
+    background: transparent
+    +trans
+    &.db
+        display: block
+        width: 100%
+        padding-left: 0
+        padding-right: 0
+        text-align: center
+
 .standard_form_button.white
-	border-color: #fff
-	color: #fff
+    border-color: #fff
+    color: #fff
+
 .standard_form_button:hover
-	background: $red_color
-	border-color: $red_color
-	color: #fff
+    background: $red_color
+    border-color: $red_color
+    color: #fff
+
 .standard_form_button_section
-	margin-top: 10px
-	position: relative
-	.continue_buing
-		position: absolute
-		left: 100%
-		margin-left: 50px
-		white-space: nowrap
-		line-height: 52px
-		color: #afafaf
-		font-size: 15px
-		top: 0
+    margin-top: 10px
+    position: relative
+    .continue_buing
+        position: absolute
+        left: 100%
+        margin-left: 50px
+        white-space: nowrap
+        line-height: 52px
+        color: #afafaf
+        font-size: 15px
+        top: 0
+
 .standard_form.gray_form
-	.line_form_title
-		color: #3f3f3f
-	.line_form
-		input, textarea
-			background: #191919
-			color: #fff
-			border: none
+    .line_form_title
+        color: #3f3f3f
+    .line_form
+        input, textarea
+            background: #191919
+            color: #fff
+            border: none
+
 .required_field
-	display: inline-block
-	vertical-align: middle
-	position: relative
-	.required_icon
-		position: absolute
-		color: $red_color
-		top: 0
-		right: -10px
-		font-size: 15px
+    display: inline-block
+    vertical-align: middle
+    position: relative
+    .required_icon
+        position: absolute
+        color: $red_color
+        top: 0
+        right: -10px
+        font-size: 15px
+
 .select_the_hours_wrapper
-	.prop_bl
-		width: 100% !important
+    .prop_bl
+        width: 100% !important
+
 .index_main_grid
-	background: #161719
-	.first_line_wrap
-		padding: 22px 0
-	.product_item 
-		.product_item_price_wrap
-			left: 7px
-	.index_grid_item
-		color: #fff
-		position: relative
-		float: left
-		margin-right: 22px
-		
-		.product_item_action_line
-			bottom: 8px
-			left: 0
-			width: 100%
-			padding: 0 8px
-			position: absolute
-		.product_item_old_price
-			bottom: 100%
-			top: auto
-			margin-bottom: -10px
-			margin-top: auto
-		.prop_bl
-			// background: #000
-			float: left
-			position: relative
-			width: 100%
-	.more_info_wrap
-		float: left
-		width: 100%
-		.prop_bl
-			margin-right: 22px
-			width: 199px
-		.prop_bl:last-child
-			margin-right: 0
-	.more_info_wrap_text
-		position: static
-		top: 100%
-		left: 0
-		width: 100%
-		font-family: $pnr
-		font-size: 13px
-		line-height: 1.4em
+    background: #161719
+    .first_line_wrap
+        padding: 22px 0
+    .product_item
+        .product_item_price_wrap
+            left: 7px
+    .index_grid_item
+        color: #fff
+        position: relative
+        float: left
+        margin-right: 22px
 
-		a
-			+trans()
-			&:hover
-				color: $red_color
+        .product_item_action_line
+            bottom: 8px
+            left: 0
+            width: 100%
+            padding: 0 8px
+            position: absolute
+        .product_item_old_price
+            bottom: 100%
+            top: auto
+            margin-bottom: -10px
+            margin-top: auto
+        .prop_bl
+            // background: #000
+            float: left
+            position: relative
+            width: 100%
+    .more_info_wrap
+        float: left
+        width: 100%
+        .prop_bl
+            margin-right: 22px
+            width: 199px
+        .prop_bl:last-child
+            margin-right: 0
+    .more_info_wrap_text
+        position: static
+        top: 100%
+        left: 0
+        width: 100%
+        font-family: $pnr
+        font-size: 13px
+        line-height: 1.4em
 
-	.more_info_img_wrapper
-		position: relative
-		margin-bottom: 15px
-		font-size: 0
+        a
+            +trans()
+            &:hover
+                color: $red_color
 
-		&:after
-			display: block
-			position: absolute
-			content: ''
-			top: 0
-			right: 0
-			left: 0
-			bottom: 0
-			background: rgba(0,0,0,0.5)
+    .more_info_img_wrapper
+        position: relative
+        margin-bottom: 15px
+        font-size: 0
 
-		img
-			width: 100%
-			vertical-align: middle
-	
-		
-	.grid_section2
-		.prop_bl
-			margin-bottom: 22px
-		.prop_bl:last-child
-			margin-bottom: 0
-	.grid_section3
-		.prop_bl
-			margin-bottom: 22px
-		.prop_bl:last-child
-			margin-bottom: 0
-	.grid_section4
-		.prop_bl
-			margin-bottom: 22px
-		.prop_bl:last-child
-			margin-bottom: 0
-	.grid_section5
-		.prop_bl
-			margin-bottom: 22px
-		.prop_bl:last-child
-			margin-bottom: 0
-	.more_section
-		.prop_bl
-			margin-right: 22px
-			width: 342px
-		.prop_bl:last-child
-			margin-right: 0px
-			width: 274px
-	.index_grid_line_wrap
-		.index_grid_item:last-child 
-			margin-right: 0
-	.select_the_hours
-		position: absolute
-		font-size: 20px
-		font-family: $o
-		top: 100%
-		margin-top: 20px
-		color: $red_color
-		left: 0
-		.arrow
-			font-family: "arial"
-			margin-left: 0px
-			+trans
-	.select_the_hours:hover
-		.arrow
-			margin-left: 15px
-	.index_product_item_title
-		font-family: "Oranienbaum"
-		font-size: 56px
-		letter-spacing: -1px
-	.index_product_item_title.fz46
-		font-size: 46px
-	.index_product_item_text_bl
-		display: inline-block
-	.index_product_item_descr
-		max-width: 270px
-		display: inline-block
-		margin-left: -12px
-	.discover_bl
-		position: absolute
-		bottom: 55px
-		left: 0
-		width: 100%
-	.index_grid_video
-		text-align: center
-		position: relative
-		img
-			+trans
-			min-width: 100%
-			min-height: 100%
-			position: relative
-			left: 0
-			top: 0
-		.discover_bl
-			bottom: 108px
-			left: 0
-			width: 100%
-			font-size: 19px
-			font-family: $o
-		.play_btn_wrap
-			position: absolute
-			top: 50%
-			left: 0
-			width: 100%
-			margin-top: -15px
-		.play_btn
-			display: inline-block
-			vertical-align: middle
-			+arr(36,40,#fff,r)
-			+trans
-	.index_grid_video:hover
-		img
-			left: -5%
-			top: -5%
-			min-width: 110%
-			min-height: 110%
-		.play_btn
-			+arr(36,40,$red_color,r)
-		.white_btn
-			background: $red_color
-			border-color: $red_color
-	.index_product_item_img
-		font-size: 0
-		line-height: 0
-		position: absolute
-		left: -5%
-		bottom: -5%
-		width: 110%
-		height: 110%
-		text-align: center
-		+trans
-		/* img
-			border: 0px none
-			max-width: 100%
-			height: auto
-			width: auto
-			opacity: 1
-			transform: scale(1.05)
-			-webkit-transform: scale(1.05)
-			-moz-transform: scale(1.05)
-			-o-transform: scale(1.05)
-			-ms-transform: scale(1.05)
-			+trans(all,ease-out,0.5s,0s) */
-		.the_image_bg
-			position: absolute
-			top: -5%
-			left: -5%
-			width: 110%
-			height: 110%
-			transform: scale(1)
-			-webkit-transform: scale(1)
-			-moz-transform: scale(1)
-			-o-transform: scale(1)
-			-ms-transform: scale(1)
-			+trans(all,ease-out,0.3s,0s)
-			background-position: center center
-			background-repeat: no-repeat
-			background-size: auto
-			background-color: #000
-	.product_item_overlay
-		position: absolute
-		width: 150%
-		left: -25%
-		top: -25%
-		height: 150%
-		background: rgba(0,0,0,0.6)
-		+trans
-	.product_item:hover
-		/* img
-			transform: scale(0.95)
-			-webkit-transform: scale(0.95)
-			-moz-transform: scale(0.95)
-			-o-transform: scale(0.95)
-			-ms-transform: scale(0.95)
-			transition-duration: 0.3s */
-		.product_item_overlay
-			background: rgba(0,0,0,0.7)
-		.the_image_bg
-			transform: scale(0.95)
-			-webkit-transform: scale(0.95)
-			-moz-transform: scale(0.95)
-			-o-transform: scale(0.95)
-			-ms-transform: scale(0.95)
+        &:after
+            display: block
+            position: absolute
+            content: ''
+            top: 0
+            right: 0
+            left: 0
+            bottom: 0
+            background: rgba(0, 0, 0, 0.5)
+
+        img
+            width: 100%
+            vertical-align: middle
+
+    .grid_section2
+        .prop_bl
+            margin-bottom: 22px
+        .prop_bl:last-child
+            margin-bottom: 0
+    .grid_section3
+        .prop_bl
+            margin-bottom: 22px
+        .prop_bl:last-child
+            margin-bottom: 0
+    .grid_section4
+        .prop_bl
+            margin-bottom: 22px
+        .prop_bl:last-child
+            margin-bottom: 0
+    .grid_section5
+        .prop_bl
+            margin-bottom: 22px
+        .prop_bl:last-child
+            margin-bottom: 0
+    .more_section
+        .prop_bl
+            margin-right: 22px
+            width: 342px
+        .prop_bl:last-child
+            margin-right: 0px
+            width: 274px
+    .index_grid_line_wrap
+        .index_grid_item:last-child
+            margin-right: 0
+    .select_the_hours
+        position: absolute
+        font-size: 20px
+        font-family: $o
+        top: 100%
+        margin-top: 20px
+        color: $red_color
+        left: 0
+        .arrow
+            font-family: "arial"
+            margin-left: 0px
+            +trans
+    .select_the_hours:hover
+        .arrow
+            margin-left: 15px
+    .index_product_item_title
+        font-family: "Oranienbaum"
+        font-size: 56px
+        letter-spacing: -1px
+    .index_product_item_title.fz46
+        font-size: 46px
+    .index_product_item_text_bl
+        display: inline-block
+    .index_product_item_descr
+        max-width: 270px
+        display: inline-block
+        margin-left: -12px
+    .discover_bl
+        position: absolute
+        bottom: 55px
+        left: 0
+        width: 100%
+    .index_grid_video
+        text-align: center
+        position: relative
+        img
+            +trans
+            min-width: 100%
+            min-height: 100%
+            position: relative
+            left: 0
+            top: 0
+        .discover_bl
+            bottom: 108px
+            left: 0
+            width: 100%
+            font-size: 19px
+            font-family: $o
+        .play_btn_wrap
+            position: absolute
+            top: 50%
+            left: 0
+            width: 100%
+            margin-top: -15px
+        .play_btn
+            display: inline-block
+            vertical-align: middle
+            +arr(36, 40, #fff, r)
+            +trans
+    .index_grid_video:hover
+        img
+            left: -5%
+            top: -5%
+            min-width: 110%
+            min-height: 110%
+        .play_btn
+            +arr(36, 40, $red_color, r)
+        .white_btn
+            background: $red_color
+            border-color: $red_color
+    .index_product_item_img
+        font-size: 0
+        line-height: 0
+        position: absolute
+        left: -5%
+        bottom: -5%
+        width: 110%
+        height: 110%
+        text-align: center
+        +trans
+
+        .the_image_bg
+            position: absolute
+            top: -5%
+            left: -5%
+            width: 110%
+            height: 110%
+            transform: scale(1)
+            -webkit-transform: scale(1)
+            -moz-transform: scale(1)
+            -o-transform: scale(1)
+            -ms-transform: scale(1)
+            +trans(all, ease-out, 0.3s, 0s)
+            background-position: center center
+            background-repeat: no-repeat
+            background-size: auto
+            background-color: #000
+    .product_item_overlay
+        position: absolute
+        width: 150%
+        left: -25%
+        top: -25%
+        height: 150%
+        background: rgba(0, 0, 0, 0.6)
+        +trans
+    .product_item:hover
+        .product_item_overlay
+            background: rgba(0, 0, 0, 0.7)
+        .the_image_bg
+            transform: scale(0.95)
+            -webkit-transform: scale(0.95)
+            -moz-transform: scale(0.95)
+            -o-transform: scale(0.95)
+            -ms-transform: scale(0.95)
+
 .advantages_slider
-	.advantages_slider_title
-		font-family: $pn_bold
-		font-size: 21px
-		letter-spacing: 0
-		margin-left: -4px
-		margin-bottom: 5px
-		line-height: 1em
-	.advantages_slider_more_txt
-		font-size: 15px
-		font-family: $pnr
-	.owl-item, .owl-wrapper-outer, .owl-wrapper
-		height: 100%
-		text-align: center
-.prop_bl
-	overflow: hidden
-	.cont_prop_bl	
-		position: absolute
-		left: 0
-		top: 0
-		bottom: 0
-		right: 0
-		overflow: hidden
-	.table
-		display: table
-		position: relative
-		height: 100%
-		width: 100%
-	.td
-		display: table-cell
-		vertical-align: middle
-	.h170percent
-		margin-top: 170%
-	.h167_4percent
-		margin-top: 706px
-	.h100percent
-		margin-top: 100%
-	.h55percent
-		margin-top: 350px
-	.h50percent
-		margin-top: 50%
-	.h45percent
-		margin-top: 45%
-	.h43_5percent
-		margin-top: 114px
+    .advantages_slider_title
+        font-family: $pn_bold
+        font-size: 21px
+        letter-spacing: 0
+        margin-left: -4px
+        margin-bottom: 5px
+        line-height: 1em
+    .advantages_slider_more_txt
+        font-size: 15px
+        font-family: $pnr
+    .owl-item, .owl-wrapper-outer, .owl-wrapper
+        height: 100%
+        text-align: center
 
+.prop_bl
+    overflow: hidden
+    .cont_prop_bl
+        position: absolute
+        left: 0
+        top: 0
+        bottom: 0
+        right: 0
+        overflow: hidden
+    .table
+        display: table
+        position: relative
+        height: 100%
+        width: 100%
+    .td
+        display: table-cell
+        vertical-align: middle
+    .h170percent
+        margin-top: 170%
+    .h167_4percent
+        margin-top: 706px
+    .h100percent
+        margin-top: 100%
+    .h55percent
+        margin-top: 350px
+    .h50percent
+        margin-top: 50%
+    .h45percent
+        margin-top: 45%
+    .h43_5percent
+        margin-top: 114px
 
 .product_item
-	@extend .noselect
-	position: relative
+    @extend .noselect
+    position: relative
 
-	.product_item_ads_line
-		position: absolute
-		top: 14px
-		width: 100%
-		left: 0
-		padding: 0 14px
-		text-align: right
-		.advert_circle
-			width: 60px
-			height: 60px
-			border-radius: 50%
-			display: inline-block
-			vertical-align: middle
-			position: relative
-		.adv_icon
-			width: 100%
-			height: 100%
-			position: absolute
-			left: 0
-			top: 0
-			+trans
-			opacity: 1
-		.adv_icon_hover
-			+trans
-			opacity: 0
-	.advert_new
-		.adv_icon
-			+sprite(new, $pos: 'abs_middle')
-		.adv_icon_hover
-			+sprite(new_hover, $pos: 'abs_middle')
-	.advert_sale
-		.adv_icon
-			+sprite(sale, $pos: 'abs_middle')
-		.adv_icon_hover
-			+sprite(sale_hover, $pos: 'abs_middle')
-	.advert_circle:hover
-		.adv_icon
-			opacity: 0
-		.adv_icon_hover
-			opacity: 1
+    .product_item_ads_line
+        position: absolute
+        top: 14px
+        width: 100%
+        left: 0
+        padding: 0 14px
+        text-align: right
+        .advert_circle
+            width: 60px
+            height: 60px
+            border-radius: 50%
+            display: inline-block
+            vertical-align: middle
+            position: relative
+        .adv_icon
+            width: 100%
+            height: 100%
+            position: absolute
+            left: 0
+            top: 0
+            +trans
+            opacity: 1
+        .adv_icon_hover
+            +trans
+            opacity: 0
+    .advert_new
+        .adv_icon
+            +sprite(new, $pos: 'abs_middle')
+        .adv_icon_hover
+            +sprite(new_hover, $pos: 'abs_middle')
+    .advert_sale
+        .adv_icon
+            +sprite(sale, $pos: 'abs_middle')
+        .adv_icon_hover
+            +sprite(sale_hover, $pos: 'abs_middle')
+    .advert_circle:hover
+        .adv_icon
+            opacity: 0
+        .adv_icon_hover
+            opacity: 1
 
-	.product_item_price_wrap
-		float: left
-		color: #fff
-		text-align: left
-		position: relative
-		top: 2px
-		left: 5px
-	.product_item_action_bar
-		float: right
-	.product_item_old_price
-		top: 100%
-		margin-top: -10px
-		left: 1px
-		font-family: "ProximaNova-Reg"
-		color: #ff3b28
-		font-size: 13px
-		position: absolute
-		overflow: hidden
-		white-space: nowrap
-		text-decoration: line-through
-		// .the_price_lined_wrapper
-		// 	position: relative
-		// 	&:after
-		// 		content: ''
-		// 		height: 1px
-		// 		width: 100%
-		// 		+rotate(-13)
-		// 		position: absolute
-		// 		top: 50%
-		// 		left: 0
-		// 		background: $red_color
-	.product_item_last_price
-		width: 100%
-		font-size: 19px
-		line-height: 40px
-		display: block
-		padding-right: 10px
+    .product_item_price_wrap
+        float: left
+        color: #fff
+        text-align: left
+        position: relative
+        top: 2px
+        left: 5px
+    .product_item_action_bar
+        float: right
+    .product_item_old_price
+        top: 100%
+        margin-top: -10px
+        left: 1px
+        font-family: "ProximaNova-Reg"
+        color: #ff3b28
+        font-size: 13px
+        position: absolute
+        overflow: hidden
+        white-space: nowrap
+        text-decoration: line-through
+    // .the_price_lined_wrapper
+    // 	position: relative
+    // 	&:after
+    // 		content: ''
+    // 		height: 1px
+    // 		width: 100%
+    // 		+rotate(-13)
+    // 		position: absolute
+    // 		top: 50%
+    // 		left: 0
+    // 		background: $red_color
+    .product_item_last_price
+        width: 100%
+        font-size: 19px
+        line-height: 40px
+        display: block
+        padding-right: 10px
 
-		.ruble10px
-			position: absolute
-			left: auto
-			right: 0
-			top: 10px
-			line-height: normal
+        .ruble10px
+            position: absolute
+            left: auto
+            right: 0
+            top: 10px
+            line-height: normal
+
 .index_product_item_content
-	text-align: center
+    text-align: center
+
 .main_footer
-	background: #000
-	color: #fff
-	position: absolute
-	bottom: 0
-	left: 0
-	width: 100%
-	.main_footer_top_wrap
-		padding: 33px 60px 50px
-	.footer_nav_item
-		float: left
-		width: 20.3%
-	.footer_soc_item
-		float: right
-		width: 18.5%
-	.footer_nav_parent_title
-		font-size: 16px
-		text-transform: uppercase
-		font-family: "Oranienbaum"
-		margin-bottom: 15px
-	.footer_nav_parent_title.hidden
-		opacity: 0
-		position: relative
-	.footer_nav_parent_title.hidden:after
-		content: ''
-		position: absolute
-		left: 0
-		top: 0
-		width: 100%
-		height: 100%
-		z-index: 10
-	.footer_nav
-		color: #595a5b
-		font-size: 13px
-		li
-			padding: 3px 0
-			+trans
-		li:hover
-			color: $red_color
-	.facebook_icon
-		width: 85px
-		height: 20px
-		display: inline-block
-		vertical-align: middle
-		+sprite(facebook)
-	.facebook_icon:hover
-		+sprite(facebook_hover)
-	.instagram_icon
-		width: 100px
-		height: 25px
-		display: inline-block
-		vertical-align: middle
-		+sprite(instagram)
-	.instagram_icon:hover
-		+sprite(instagram_hover)
+    background: #000
+    color: #fff
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    .main_footer_top_wrap
+        padding: 33px 60px 50px
+    .footer_nav_item
+        float: left
+        width: 20.3%
+    .footer_soc_item
+        float: right
+        width: 18.5%
+    .footer_nav_parent_title
+        font-size: 16px
+        text-transform: uppercase
+        font-family: "Oranienbaum"
+        margin-bottom: 15px
+    .footer_nav_parent_title.hidden
+        opacity: 0
+        position: relative
+    .footer_nav_parent_title.hidden:after
+        content: ''
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        z-index: 10
+    .footer_nav
+        color: #595a5b
+        font-size: 13px
+        li
+            padding: 3px 0
+            +trans
+        li:hover
+            color: $red_color
+    .facebook_icon
+        width: 85px
+        height: 20px
+        display: inline-block
+        vertical-align: middle
+        +sprite(facebook)
+    .facebook_icon:hover
+        +sprite(facebook_hover)
+    .instagram_icon
+        width: 100px
+        height: 25px
+        display: inline-block
+        vertical-align: middle
+        +sprite(instagram)
+    .instagram_icon:hover
+        +sprite(instagram_hover)
+
 .inside_page .main_footer
-	.main_footer_top_wrap
-		padding: 0px 60px 50px
-		.footer_nav_units
-			padding-top: 33px
-			border-top: 1px solid rgba(255,255,255,0.1)
+    .main_footer_top_wrap
+        padding: 0px 60px 50px
+        .footer_nav_units
+            padding-top: 33px
+            border-top: 1px solid rgba(255, 255, 255, 0.1)
 
 .main_footer_bottom
-	border-top: 1px solid rgba(255,255,255,0.1)
-	.content_wrap
-		padding: 20px 60px 20px
-	.copy
-		font-size: 13px
-		font-family: $pnr
-		margin-right: 108px
-		margin-top: 5px
-	.like 
-		position: relative
-		left: 0
-		top: 6px
+    border-top: 1px solid rgba(255, 255, 255, 0.1)
+    .content_wrap
+        padding: 20px 60px 20px
+    .copy
+        font-size: 13px
+        font-family: $pnr
+        margin-right: 108px
+        margin-top: 5px
+    .like
+        position: relative
+        left: 0
+        top: 6px
+
 .footer_payment_methods
-	li
-		display: inline-block
-		vertical-align: middle
-		margin-right: 13px
-	.payment_methods_item
-		position: relative
-		display: inline-block
-		vertical-align: middle
-		.icon
-			display: inline-block
-			vertical-align: middle
-		.overlay
-			content: ''
-			position: absolute
-			z-index: 1
-			width: 100%
-			height: 100%
-			left: 0
-			top: 0
-			background: rgba(0,0,0,0.5)
-			+trans
-	
-	@each $s in 1,2,3,4,5,6,7,8
-		.payment_methods_item.the#{$s}
-			.icon
-				+sprite(pay#{$s})
+    li
+        display: inline-block
+        vertical-align: middle
+        margin-right: 13px
+    .payment_methods_item
+        position: relative
+        display: inline-block
+        vertical-align: middle
+        .icon
+            display: inline-block
+            vertical-align: middle
+        .overlay
+            content: ''
+            position: absolute
+            z-index: 1
+            width: 100%
+            height: 100%
+            left: 0
+            top: 0
+            background: rgba(0, 0, 0, 0.5)
+            +trans
+
+    @each $s in 1, 2, 3, 4, 5, 6, 7, 8
+        .payment_methods_item.the#{$s}
+            .icon
+                +sprite(pay#{$s})
 
 .footer_soc_item
-	.footer_nav_parent_title
-		margin-bottom: 12px
-	.footer_facebook
-		margin-bottom: 12px
-	.footer_instagram
-		margin-bottom: 11px
-	.footer_language_wrap
-		font-size: 13px
-		.footer_language
-			position: relative
-			padding-left: 21px
-		.footer_language:after
-			position: absolute
-			left: -1px 
-			top: -3px
-			content: ''
-			width: 18px
-			height: 18px
-			+sprite(planet, $pos: "abs_middle")
-			left: 0 !important
-			margin-left: 0 !important
-		.footer_language:hover
-			color: $red_color
-			&:after
-				+sprite(planet_hover, $pos: "abs_middle")
-				left: 0 !important
-				margin-left: 0 !important
-	
+    .footer_nav_parent_title
+        margin-bottom: 12px
+    .footer_facebook
+        margin-bottom: 12px
+    .footer_instagram
+        margin-bottom: 11px
+    .footer_language_wrap
+        font-size: 13px
+        .footer_language
+            position: relative
+            padding-left: 21px
+        .footer_language:after
+            position: absolute
+            left: -1px
+            top: -3px
+            content: ''
+            width: 18px
+            height: 18px
+            +sprite(planet, $pos: "abs_middle")
+            left: 0 !important
+            margin-left: 0 !important
+        .footer_language:hover
+            color: $red_color
+            &:after
+                +sprite(planet_hover, $pos: "abs_middle")
+                left: 0 !important
+                margin-left: 0 !important
+
 .product_item_action_btn
-	display: inline-block
-	vertical-align: middle
-	margin: 0 2px
-	cursor: pointer
-	font-family: $pn_rit
-	.icon_wrap
-		width: 40px
-		height: 40px
-		display: inline-block
-		vertical-align: middle
-		// border: 1px solid rgba(255,255,255,0.1)
-		border-radius: 50%
-		position: relative
-		+trans
-	.hidden_input
-		display: none
-	.icon_checked
-		+trans
-		opacity: 0
-.product_table
-	.product_item_action_btn
-		.icon_wrap
-			// border: 1px solid #000
+    display: inline-block
+    vertical-align: middle
+    margin: 0 2px
+    cursor: pointer
+    font-family: $pn_rit
+    .icon_wrap
+        width: 40px
+        height: 40px
+        display: inline-block
+        vertical-align: middle
+        // border: 1px solid rgba(255,255,255,0.1)
+        border-radius: 50%
+        position: relative
+        +trans
+    .hidden_input
+        display: none
+    .icon_checked
+        +trans
+        opacity: 0
+
 .product_item_comparison_btn
-	.icon
-		width: 21px
-		height: 22px
-		position: absolute
-		left: 50%
-		top: 50%
-		margin-top: -11px
-		margin-left: -11px
-		+sprite(compare_round_white, $pos: "abs_middle")
-		+trans
-	.icon_checked
-		+sprite(compare_round_active, $pos: "abs_middle")
-		opacity: 0
-	.icon_checked_hover
-		+sprite(compare_round_active_hover, $pos:"abs_middle")
-		opacity: 0
-	.icon_hover
-		+sprite(compare_round_hover, $pos:"abs_middle")
-		opacity: 0
-	.hidden_input:checked + .icon_wrap
-		background: transparent
-		.icon
-			opacity: 0
-		.icon_checked
-			opacity: 1
+    .icon
+        width: 21px
+        height: 22px
+        position: absolute
+        left: 50%
+        top: 50%
+        margin-top: -11px
+        margin-left: -11px
+        +sprite(compare_round_white, $pos: "abs_middle")
+        +trans
+    .icon_checked
+        +sprite(compare_round_active, $pos: "abs_middle")
+        opacity: 0
+    .icon_checked_hover
+        +sprite(compare_round_active_hover, $pos: "abs_middle")
+        opacity: 0
+    .icon_hover
+        +sprite(compare_round_hover, $pos: "abs_middle")
+        opacity: 0
+    .hidden_input:checked + .icon_wrap
+        background: transparent
+        .icon
+            opacity: 0
+        .icon_checked
+            opacity: 1
+
 .product_page_section
-	.product_item_action_bar
-		margin-bottom: 87px
-	.product_item_action_btn
-		width: auto
-		height: auto
-		margin-right: 20px
-		font-family: $pnr
-		font-size: 13px
-		.icon_wrap
-			margin-right: 10px
-		.wrap_text
-			margin-right: 5px
-			+trans
-	.product_item_action_btn:hover
-		color: $red_color
-	.hidden_input:checked + .icon_wrap + .wrap_text
-		color: $red_color
+    .product_item_action_bar
+        margin-bottom: 87px
+    .product_item_action_btn
+        width: auto
+        height: auto
+        margin-right: 20px
+        font-family: $pnr
+        font-size: 13px
+        .icon_wrap
+            margin-right: 10px
+        .wrap_text
+            margin-right: 5px
+            +trans
+    .product_item_action_btn:hover
+        color: $red_color
+    .hidden_input:checked + .icon_wrap + .wrap_text
+        color: $red_color
+
 .product_item_deferred_btn
-	.icon
-		width: 18px
-		height: 18px
-		position: absolute
-		left: 50%
-		top: 50%
-		margin-top: -9px
-		margin-left: -9px
-		+sprite(star_round_white, $pos: "abs_middle")
-		+trans
-	.icon_checked
-		+sprite(star_round_active, $pos: "abs_middle")
-		opacity: 0
-	.icon_checked_hover
-		+sprite(star_round_active_hover, $pos:"abs_middle")
-		opacity: 0
-	.icon_hover
-		+sprite(star_round_hover, $pos:"abs_middle")
-		opacity: 0
-	.hidden_input:checked + .icon_wrap
-		background: transparent
-		.icon
-			opacity: 0
-		.icon_checked
-			opacity: 1
+    .icon
+        width: 18px
+        height: 18px
+        position: absolute
+        left: 50%
+        top: 50%
+        margin-top: -9px
+        margin-left: -9px
+        +sprite(star_round_white, $pos: "abs_middle")
+        +trans
+    .icon_checked
+        +sprite(star_round_active, $pos: "abs_middle")
+        opacity: 0
+    .icon_checked_hover
+        +sprite(star_round_active_hover, $pos: "abs_middle")
+        opacity: 0
+    .icon_hover
+        +sprite(star_round_hover, $pos: "abs_middle")
+        opacity: 0
+    .hidden_input:checked + .icon_wrap
+        background: transparent
+        .icon
+            opacity: 0
+        .icon_checked
+            opacity: 1
+
 .product_item_basket_btn
-	.icon
-		width: 17px
-		height: 20px
-		position: absolute
-		left: 50%
-		top: 50%
-		margin-top: -9px
-		margin-left: -9px
-		+trans
-		+sprite(cart_round_white, $pos: "abs_middle")
-	.icon_checked
-		+sprite(cart_round_active, $pos: "abs_middle")
-		opacity: 0
-	.icon_checked_hover
-		+sprite(cart_round_active_hover, $pos:"abs_middle")
-		opacity: 0
-	.icon_hover
-		+sprite(cart_round_hover, $pos:"abs_middle")
-		opacity: 0
-	
+    .icon
+        width: 17px
+        height: 20px
+        position: absolute
+        left: 50%
+        top: 50%
+        margin-top: -9px
+        margin-left: -9px
+        +trans
+        +sprite(cart_round_white, $pos: "abs_middle")
+    .icon_checked
+        +sprite(cart_round_active, $pos: "abs_middle")
+        opacity: 0
+    .icon_checked_hover
+        +sprite(cart_round_active_hover, $pos: "abs_middle")
+        opacity: 0
+    .icon_hover
+        +sprite(cart_round_hover, $pos: "abs_middle")
+        opacity: 0
+
 .product_item_action_btn
-	.hidden_input:checked + .icon_wrap
-		background: transparent
-		.icon
-			opacity: 0
-		.icon_checked
-			opacity: 1
-	
+    .hidden_input:checked + .icon_wrap
+        background: transparent
+        .icon
+            opacity: 0
+        .icon_checked
+            opacity: 1
+
 .product_item_action_btn:hover
-	.icon
-		opacity: 0
-	.icon_hover
-		opacity: 1
-	.hidden_input:checked + .icon_wrap
-		background: transparent
-		.icon
-			opacity: 0
-		.icon_checked_hover
-			opacity: 1
-		
+    .icon
+        opacity: 0
+    .icon_hover
+        opacity: 1
+    .hidden_input:checked + .icon_wrap
+        background: transparent
+        .icon
+            opacity: 0
+        .icon_checked_hover
+            opacity: 1
+
 //header popup start//
 .close_btn_anim
-	width: 19px
-	height: 19px
-	display: inline-block
-	vertical-align: middle
-	cursor: pointer
-	position: relative
-	.close_btn
-		+sprite(close_black)
-		+trans
-		position: absolute
-		top: 0
-		left: 0
-		opacity: 1
-	.hover_close_btn 
-		+sprite(close_red)
-		+trans
-		position: absolute
-		top: 0
-		left: 0
-		opacity: 0
+    width: 19px
+    height: 19px
+    display: inline-block
+    vertical-align: middle
+    cursor: pointer
+    position: relative
+    .close_btn
+        +sprite(close_black)
+        +trans
+        position: absolute
+        top: 0
+        left: 0
+        opacity: 1
+    .hover_close_btn
+        +sprite(close_red)
+        +trans
+        position: absolute
+        top: 0
+        left: 0
+        opacity: 0
+
 .close_btn_anim:hover
-	.close_btn
-		opacity: 0
-	.hover_close_btn
-		opacity: 1
+    .close_btn
+        opacity: 0
+    .hover_close_btn
+        opacity: 1
+
 .standard_comparison_link
-	display: inline-block
-	vertical-align: middle
-	background: url(../img/product_icon1.png) no-repeat right center
-	padding-right: 55px
-	line-height: 40px
+    display: inline-block
+    vertical-align: middle
+    background: url(../img/product_icon1.png) no-repeat right center
+    padding-right: 55px
+    line-height: 40px
+
 .standard_add_basket_link
-	display: inline-block
-	vertical-align: middle
-	background: url(../img/product_icon2.png) no-repeat right center
-	padding-right: 65px
-	line-height: 42px
+    display: inline-block
+    vertical-align: middle
+    background: url(../img/product_icon2.png) no-repeat right center
+    padding-right: 65px
+    line-height: 42px
+
 .header_standard_popup
-	background: #fff
-	color: #000
-	text-align: left
-	padding: 25px 0 60px
-	display: none
-	position: relative
-	top: -1px
-	z-index: 10
-	.content_wrap
-		position: relative
+    background: #fff
+    color: #000
+    text-align: left
+    padding: 25px 0 60px
+    display: none
+    position: relative
+    top: -1px
+    z-index: 10
+    .content_wrap
+        position: relative
+
 .header_popup_close
-	position: absolute
-	top: 7px
-	right: 60px
+    position: absolute
+    top: 7px
+    right: 60px
+
 .header_popup_product_delete
-	position: absolute
-	left: -35px
-	top: 50%
-	margin-top: -10px
+    position: absolute
+    left: -35px
+    top: 50%
+    margin-top: -10px
+
 .header_popup_title
-	font-size: 30px
-	font-family: "Oranienbaum"
-	letter-spacing: -0.7px
-	margin-bottom: 21px
+    font-size: 30px
+    font-family: "Oranienbaum"
+    letter-spacing: -0.7px
+    margin-bottom: 21px
+
 .product_table
-	display: table
-	width: 100%
+    display: table
+    width: 100%
+
 .product_tr
-	display: table-row
+    display: table-row
+
 .product_td
-	display: table-cell
-	vertical-align: middle
-	border-top: 1px solid #f0f0f0
-	padding: 0 0
+    display: table-cell
+    vertical-align: middle
+    border-top: 1px solid #f0f0f0
+    padding: 0 0
+
 .header_popup_product_item:last-child
-	.product_td
-		border-bottom: 1px solid #f0f0f0
+    .product_td
+        border-bottom: 1px solid #f0f0f0
+
 .header_popup_product_units
-	font-size: 13px
-.header_popup_product_article, 
+    font-size: 13px
+
+.header_popup_product_article,
 .header_popup_product_price,
 .header_popup_product_total_price
-	font-size: 17px
+    font-size: 17px
 
-	.ruble10px
-		left: 3px
+    .ruble10px
+        left: 3px
 
 .header_popup_product_amount
-	text-align: center
+    text-align: center
 
 .header_popup_product_total_price
-	text-align: right
+    text-align: right
 
 .header_popup_product_article
-	padding: 0px 15px
-	width: 19%
-	
+    padding: 0px 15px
+    width: 19%
+
 .header_popup_product_price
-	padding: 0px 10px
-	width: 11%
+    padding: 0px 10px
+    width: 11%
 
 .header_popup_product_comparison
-	padding: 0 10px
-	width: 23.5%
-.header_popup_product_add_basket
-	text-align: right
-	padding: 0px 20px 0px 10px
-.header_popup_product_img
-	width: 150px
-	text-align: center
-	position: relative
-	font-size: 0
-	line-height: 0
-	img
-		max-height: 160px
+    padding: 0 10px
+    width: 23.5%
 
-// .header_basket_popup 
+.header_popup_product_add_basket
+    text-align: right
+    padding: 0px 20px 0px 10px
+
+.header_popup_product_img
+    width: 150px
+    text-align: center
+    position: relative
+    font-size: 0
+    line-height: 0
+    img
+        max-height: 160px
+
+// .header_basket_popup
 .header_popup_title
-	font-size: 46px
-	padding-top: 23px
-	margin-bottom: 15px
+    font-size: 46px
+    padding-top: 23px
+    margin-bottom: 15px
 
 .header_popup_deferred
-	font-size: 13px
-	padding-right: 18px
-	text-align: right
-	width: 242px
-	.product_item_deferred_btn
-		+trans
-		.icon_wrap
-			margin-left: 15px
-		.icon
-			+sprite(star_black_with_arrow, $pos: "abs_middle")
-		.icon_hover
-			+sprite(star_red_with_arrow, $pos: "abs_middle")
-			opacity: 0
-		.icon_checked
-			+sprite(star_active_with_arrow, $pos: "abs_middle")
-			opacity: 0
-		.arrow
-			width: 30px
-			height: 10px
-			+sprite(next_arrow)
-			position: absolute
-			left: -25px
-			top: -5px
-			opacity: 1
-			+trans
-		.arrow_hover
-			opacity: 0
-			+sprite(next_arrow_hover)
-		.hidden_input:checked + .icon_wrap
-			background: transparent
-			border-color: $red_color
-			.icon, .arrow
-				opacity: 0
-			.icon_checked, .arrow_hover
-				opacity: 1
+    font-size: 13px
+    padding-right: 18px
+    text-align: right
+    width: 242px
+    .product_item_deferred_btn
+        +trans
+        .icon_wrap
+            margin-left: 15px
+        .icon
+            +sprite(star_black_with_arrow, $pos: "abs_middle")
+        .icon_hover
+            +sprite(star_red_with_arrow, $pos: "abs_middle")
+            opacity: 0
+        .icon_checked
+            +sprite(star_active_with_arrow, $pos: "abs_middle")
+            opacity: 0
+        .arrow
+            width: 30px
+            height: 10px
+            +sprite(next_arrow)
+            position: absolute
+            left: -25px
+            top: -5px
+            opacity: 1
+            +trans
+        .arrow_hover
+            opacity: 0
+            +sprite(next_arrow_hover)
+        .hidden_input:checked + .icon_wrap
+            background: transparent
+            border-color: $red_color
+            .icon, .arrow
+                opacity: 0
+            .icon_checked, .arrow_hover
+                opacity: 1
 
-	.product_item_deferred_btn:hover
-		color: #ff3b28
-		.icon, .arrow
-			opacity: 0
-		.icon_hover, .arrow_hover
-			opacity: 1
+    .product_item_deferred_btn:hover
+        color: #ff3b28
+        .icon, .arrow
+            opacity: 0
+        .icon_hover, .arrow_hover
+            opacity: 1
 
 .header_popup_product_add_basket
-	.product_item_basket_btn
-		+trans
-		.icon_wrap
-			margin-left: 15px
-		.icon
-			+sprite(cart_round_with_arrow_black, $pos: "abs_middle")
-		.icon_hover
-			+sprite(cart_round_with_arrow_red, $pos: "abs_middle")
-			opacity: 0
-		.icon_checked
-			+sprite(cart_round_with_arrow_active, $pos: "abs_middle")
-			opacity: 0
-		.hidden_input:checked + .icon_wrap
-			background: transparent
-			border-color: $red_color
-			.icon, .arrow
-				opacity: 0
-			.icon_checked, .arrow_hover
-				opacity: 1
-	.product_item_basket_btn:hover
-		color: #ff3b28
-		.icon, .arrow
-			opacity: 0
-		.icon_hover, .arrow_hover
-			opacity: 1
+    .product_item_basket_btn
+        +trans
+        .icon_wrap
+            margin-left: 15px
+        .icon
+            +sprite(cart_round_with_arrow_black, $pos: "abs_middle")
+        .icon_hover
+            +sprite(cart_round_with_arrow_red, $pos: "abs_middle")
+            opacity: 0
+        .icon_checked
+            +sprite(cart_round_with_arrow_active, $pos: "abs_middle")
+            opacity: 0
+        .hidden_input:checked + .icon_wrap
+            background: transparent
+            border-color: $red_color
+            .icon, .arrow
+                opacity: 0
+            .icon_checked, .arrow_hover
+                opacity: 1
+    .product_item_basket_btn:hover
+        color: #ff3b28
+        .icon, .arrow
+            opacity: 0
+        .icon_hover, .arrow_hover
+            opacity: 1
 
 .header_popup_product_comparison
-	text-align: right
-	.product_item_comparison_btn
-		+trans
-		.icon_wrap
-			margin-left: 15px
-		.icon
-			+sprite(compare_round_black, $pos: "abs_middle")
-		.icon_hover
-			+sprite(compare_round_hover, $pos: "abs_middle")
-			opacity: 0
-		.icon_checked
-			+sprite(compare_round_active_hover, $pos: "abs_middle")
-			opacity: 0
-		.arrow
-			width: 30px
-			height: 10px
-			+sprite(next_arrow)
-			position: absolute
-			left: -25px
-			top: -5px
-			opacity: 1
-			+trans
-		.arrow_hover
-			opacity: 0
-			+sprite(next_arrow_hover)
-		.hidden_input:checked + .icon_wrap
-			background: transparent
-			border-color: $red_color
-			.icon, .arrow
-				opacity: 0
-			.icon_checked, .arrow_hover
-				opacity: 1
+    text-align: right
+    .product_item_comparison_btn
+        +trans
+        .icon_wrap
+            margin-left: 15px
+        .icon
+            +sprite(compare_round_black, $pos: "abs_middle")
+        .icon_hover
+            +sprite(compare_round_hover, $pos: "abs_middle")
+            opacity: 0
+        .icon_checked
+            +sprite(compare_round_active_hover, $pos: "abs_middle")
+            opacity: 0
+        .arrow
+            width: 30px
+            height: 10px
+            +sprite(next_arrow)
+            position: absolute
+            left: -25px
+            top: -5px
+            opacity: 1
+            +trans
+        .arrow_hover
+            opacity: 0
+            +sprite(next_arrow_hover)
+        .hidden_input:checked + .icon_wrap
+            background: transparent
+            border-color: $red_color
+            .icon, .arrow
+                opacity: 0
+            .icon_checked, .arrow_hover
+                opacity: 1
 
-	.product_item_comparison_btn:hover
-		color: $red_color
-		.icon, .arrow
-			opacity: 0
-		.icon_hover, .arrow_hover
-			opacity: 1
-
+    .product_item_comparison_btn:hover
+        color: $red_color
+        .icon, .arrow
+            opacity: 0
+        .icon_hover, .arrow_hover
+            opacity: 1
 
 .payment_section_top_wrap
-	.discount_coupon_wrap
-		width: 60%
-		float: left
-		padding-top: 20px
-		font-family: $pn_rit
-	.total_price_wrap
-		width: 180px
-		float: left
-		text-align: right
+    .discount_coupon_wrap
+        width: 60%
+        float: left
+        padding-top: 20px
+        font-family: $pn_rit
+    .total_price_wrap
+        width: 180px
+        float: left
+        text-align: right
+
 .discount_coupon_wrap
-	line-height: 38px
-	color: #afafaf
-	input
-		border: 1px solid #afafaf
-		height: 38px
-		padding: 0 5px 
-		width: 100px
-		color: #000
-		margin: 0 10px 0 20px
-	.reset
-		+sprite(round_icon)
-		display: inline-block
-		vertical-align: middle
-		cursor: pointer
+    line-height: 38px
+    color: #afafaf
+    input
+        border: 1px solid #afafaf
+        height: 38px
+        padding: 0 5px
+        width: 100px
+        color: #000
+        margin: 0 10px 0 20px
+    .reset
+        +sprite(round_icon)
+        display: inline-block
+        vertical-align: middle
+        cursor: pointer
+
 .payment_section
-	padding: 20px 0
+    padding: 20px 0
+
 .total_price_wrap
-	.without_discount_wrap
-		color: #afafaf
-		font-size: 16px
-		font-family: $pnr
-	.what_discount
-		font-size: 13px
-		font-family: $pnr
-		margin-bottom: 15px
-	.what_discount_num
-		color: $red_color
-		font-family: $pn_bold
-	.total_price_line
-		font-family: $pn_bold
-		font-size: 15px
-	.total_price_line_amout
-		font-size: 23px
-		position: relative
-		.ruble15px
-			position: absolute
-			top: 2px
-			left: 100%
-			margin-left: 8px
-			font-size: 12px
-	.total_price_line_title
-		margin-right: 5px
+    .without_discount_wrap
+        color: #afafaf
+        font-size: 16px
+        font-family: $pnr
+    .what_discount
+        font-size: 13px
+        font-family: $pnr
+        margin-bottom: 15px
+    .what_discount_num
+        color: $red_color
+        font-family: $pn_bold
+    .total_price_line
+        font-family: $pn_bold
+        font-size: 15px
+    .total_price_line_amout
+        font-size: 23px
+        position: relative
+        .ruble15px
+            position: absolute
+            top: 2px
+            left: 100%
+            margin-left: 8px
+            font-size: 12px
+    .total_price_line_title
+        margin-right: 5px
+
 .crossed_price
-	position: relative
-	color: $red_color
-	text-decoration: line-through
+    position: relative
+    color: $red_color
+    text-decoration: line-through
 
 .top_interlineation
-	color: #afafaf
-	font-size: 15px
-	margin-bottom: 30px
-	font-family: $pn_rit
+    color: #afafaf
+    font-size: 15px
+    margin-bottom: 30px
+    font-family: $pn_rit
 
 .payment_section_bottom_wrap
-	padding: 40px 0 0
-	.standard_form 
-		width: 65%
-		float: left
-		.top_interlineation
-			color: #afafaf
-			font-size: 15px
-			margin-bottom: 30px
-			font-family: $pn_rit
-	.payment_methods
-		width: 35%
-		float: right
-		padding-left: 31px
-	.payment_methods_title
-		font-size: 15px
-		color: #afafaf
-		font-family: $pn_rit
-		margin-bottom: 30px
-	.line_form_descr
-		color: #afafaf
-		font-size: 13px
-		max-width: 240px
-		margin-top: 10px
-		font-family: $pn_rit
-	.standard_form_button
-		width: 100%
-		color: $red_color
-		border-color: $red_color
-	.standard_form_button:hover
-		color: #fff
-	.checkbox_registration
-		margin-bottom: 28px
-		display: block
-		.input_checkbox
-			position: relative
-			width: 23px
-			height: 25px
-			display: inline-block
-			vertical-align: middle
-			border: none
-			top: -2px
-			&:after
-				display: block
-				content: ''
-				+sprite(checkbox)
-				+trans
-			&:before
-				display: block
-				content: ''
-				+sprite(checkbox_black_checked)
-				+trans
-				opacity: 0
+    padding: 40px 0 0
+    .standard_form
+        width: 65%
+        float: left
+        .top_interlineation
+            color: #afafaf
+            font-size: 15px
+            margin-bottom: 30px
+            font-family: $pn_rit
+    .payment_methods
+        width: 35%
+        float: right
+        padding-left: 31px
+    .payment_methods_title
+        font-size: 15px
+        color: #afafaf
+        font-family: $pn_rit
+        margin-bottom: 30px
+    .line_form_descr
+        color: #afafaf
+        font-size: 13px
+        max-width: 240px
+        margin-top: 10px
+        font-family: $pn_rit
+    .standard_form_button
+        width: 100%
+        color: $red_color
+        border-color: $red_color
+    .standard_form_button:hover
+        color: #fff
+    .checkbox_registration
+        margin-bottom: 28px
+        display: block
+        .input_checkbox
+            position: relative
+            width: 23px
+            height: 25px
+            display: inline-block
+            vertical-align: middle
+            border: none
+            top: -2px
+            &:after
+                display: block
+                content: ''
+                +sprite(checkbox)
+                +trans
+            &:before
+                display: block
+                content: ''
+                +sprite(checkbox_black_checked)
+                +trans
+                opacity: 0
 
-		.hidden_checkbox:checked + .wrap_checkbox_content
-			color: #000
+        .hidden_checkbox:checked + .wrap_checkbox_content
+            color: #000
+
 .standard_radio
-	input
-		display: none
-	.circle
-		width: 20px
-		height: 20px
-		border-radius: 50%
-		border: 1px solid #d6d7d7
-		position: relative
-		display: inline-block
-	.circle_icon
-		position: absolute
-		width: 10px
-		height: 10px
-		border-radius: 50%
-		left: 50%
-		margin-left: -5px
-		top: 50%
-		margin-top: -5px
-		background: #353533
-		opacity: 0
-		+trans
-	input:checked + .circle
-		.circle_icon
-			opacity: 1
+    input
+        display: none
+    .circle
+        width: 20px
+        height: 20px
+        border-radius: 50%
+        border: 1px solid #d6d7d7
+        position: relative
+        display: inline-block
+    .circle_icon
+        position: absolute
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        left: 50%
+        margin-left: -5px
+        top: 50%
+        margin-top: -5px
+        background: #353533
+        opacity: 0
+        +trans
+    input:checked + .circle
+        .circle_icon
+            opacity: 1
+
 .payment_methods_label
-	position: relative
-	display: block
-	padding-left: 30px
-	margin-bottom: 25px
-	.standard_radio
-		position: absolute
-		left: 0px
-		top: 0
-	.payment_methods_item_title
-		font-family: $pn_bold
-		font-size: 15px
-		margin-bottom: 10px
-	.payment_methods_item_descr
-		font-family: $pnr
-		font-size: 13px
-		line-height: 1.4
+    position: relative
+    display: block
+    padding-left: 30px
+    margin-bottom: 25px
+    .standard_radio
+        position: absolute
+        left: 0px
+        top: 0
+    .payment_methods_item_title
+        font-family: $pn_bold
+        font-size: 15px
+        margin-bottom: 10px
+    .payment_methods_item_descr
+        font-family: $pnr
+        font-size: 13px
+        line-height: 1.4
 //header popup end//
 
 .ffb
-	font-family: $pn_bold
+    font-family: $pn_bold
 
 //products page start//
 .header_banner
-	height: 320px
-	background: url(../img/header_banner1.jpg) no-repeat center center
-	background-size: cover
+    height: 320px
+    background: url(../img/header_banner1.jpg) no-repeat center center
+    background-size: cover
 
-	&.banner_the2
-		background-image: url(../img/header_banner2.jpg)
+    &.banner_the2
+        background-image: url(../img/header_banner2.jpg)
 
-	&.history
-		height: 320px
-
+    &.history
+        height: 320px
 
 .products_grid_section
-	.products_grid_item
-		width: 30%
-		margin-right: 5%
-		float: left
-		text-align: center
-		margin-bottom: 55px
-		+trans
-		img
-			max-width: 270px
-		.product_item_img
-			margin-bottom: 15px
-			position: relative
-			font-size: 0
-	.products_grid_item:nth-child(3n+3)
-		margin-right: 0
-	.products_grid_item:hover
-		.product_item_img_overlay
-			background: rgba(0, 0, 0, 0)
-	.product_item_img_overlay
-		position: absolute
-		background: rgba(0, 0, 0, 0.5)
-		width: 100%
-		height: 100%
-		left: 0
-		top: 0
-		+trans
+    .products_grid_item
+        width: 30%
+        margin-right: 5%
+        float: left
+        text-align: center
+        margin-bottom: 55px
+        +trans
+        img
+            max-width: 270px
+        .product_item_img
+            margin-bottom: 15px
+            position: relative
+            font-size: 0
+    .products_grid_item:nth-child(3n+3)
+        margin-right: 0
+    .products_grid_item:hover
+        .product_item_img_overlay
+            background: rgba(0, 0, 0, 0)
+    .product_item_img_overlay
+        position: absolute
+        background: rgba(0, 0, 0, 0.5)
+        width: 100%
+        height: 100%
+        left: 0
+        top: 0
+        +trans
+
 .filter_section_title
-	position: relative
-	.title_text
-		font-family: $pnec_sb
-		font-size: 18px
-		color: #fff
-		text-transform: uppercase
-		padding: 13px 0
-		display: inline-block
-	.filter_close_text, .filter_reset_text
-		opacity: 0
-		background: #000
-		+trans
-		line-height: 20px
-		color: $red_color
-		font-family: "ProximaNova-Reg"
-		font-size: 15px
-	.filter_reset
-		font-size: 15px
-		font-family: "ProximaNova-Reg"
-		color: #FF3B28
-		line-height: 20px
-		position: absolute
-		right: 10px
-		width: 20px
-		height: 20px
-		top: 50%
-		margin-top: -10px
-		outline: none
-		border: none
-		background: inherit
-		&:hover
-			.filter_reset_text
-				opacity: 1
-			.cross_icon
-				opacity: 0
-			.cross_icon.hover
-				opacity: 1
-		.filter_reset_text
-			position: absolute
-			left: auto
-			top: 50%
-			margin-top: -10px
-			width: 190px
-			right: 0px
-			text-align: left
-	.filter_reset_cross
-		top: 0
-		right: 0
-		z-index: 10
-		top: 50%
-		margin-top: -10px
-		width: 20px
-		height: 20px
-		position: absolute
-		.cross_icon
-			+sprite(close_gray, $pos: "abs_middle")
-			opacity: 1
-			+trans
-			&.hover
-				opacity: 0
-				+sprite(close_red, $pos: "abs_middle")
-	.filter_close
-		position: absolute
-		display: inline-block
-		vertical-align: middle
-		left: -30px
-		top: 50%
-		margin-top: -10px
-		padding-left: 20px
-		.filter_close_arrow
-			content: ''
-			height: 12px
-			width: 10px
-			position: absolute
-			+arr(6,12,#fff,l)
-			top: 50%
-			margin-top: -6px
-			left: 0
-			+trans
-		&:hover
-			.filter_close_arrow
-				+arr(6,12,$red_color,l)
-			.filter_close_text
-				opacity: 1
+    position: relative
+    .title_text
+        font-family: $pnec_sb
+        font-size: 18px
+        color: #fff
+        text-transform: uppercase
+        padding: 13px 0
+        display: inline-block
+    .filter_close_text, .filter_reset_text
+        opacity: 0
+        background: #000
+        +trans
+        line-height: 20px
+        color: $red_color
+        font-family: "ProximaNova-Reg"
+        font-size: 15px
+    .filter_reset
+        font-size: 15px
+        font-family: "ProximaNova-Reg"
+        color: #FF3B28
+        line-height: 20px
+        position: absolute
+        right: 10px
+        width: 20px
+        height: 20px
+        top: 50%
+        margin-top: -10px
+        outline: none
+        border: none
+        background: inherit
+        &:hover
+            .filter_reset_text
+                opacity: 1
+            .cross_icon
+                opacity: 0
+            .cross_icon.hover
+                opacity: 1
+        .filter_reset_text
+            position: absolute
+            left: auto
+            top: 50%
+            margin-top: -10px
+            width: 190px
+            right: 0px
+            text-align: left
+    .filter_reset_cross
+        top: 0
+        right: 0
+        z-index: 10
+        top: 50%
+        margin-top: -10px
+        width: 20px
+        height: 20px
+        position: absolute
+        .cross_icon
+            +sprite(close_gray, $pos: "abs_middle")
+            opacity: 1
+            +trans
+            &.hover
+                opacity: 0
+                +sprite(close_red, $pos: "abs_middle")
+    .filter_close
+        position: absolute
+        display: inline-block
+        vertical-align: middle
+        left: -30px
+        top: 50%
+        margin-top: -10px
+        padding-left: 20px
+        .filter_close_arrow
+            content: ''
+            height: 12px
+            width: 10px
+            position: absolute
+            +arr(6, 12, #fff, l)
+            top: 50%
+            margin-top: -6px
+            left: 0
+            +trans
+        &:hover
+            .filter_close_arrow
+                +arr(6, 12, $red_color, l)
+            .filter_close_text
+                opacity: 1
 
 .list_filters_units
-	.list_filters_item
-		padding: 0 15px
-		border-top: 1px solid rgba(255,255,255,0.06)
-		color: #3f3f3f
-		+trans
-	.list_filters_item:last-child
-		border-bottom: 1px solid rgba(255,255,255,0.06)
-	.list_filters_item.open
-		background: #161719
-		border-color: #000
-		.list_filters_item_title
-			color: #fff
-		.list_filters_item_title:after
-			+arr(12,6,rgba(255,255,255,0.06),t)
+    .list_filters_item
+        padding: 0 15px
+        border-top: 1px solid rgba(255, 255, 255, 0.06)
+        color: #3f3f3f
+        +trans
+    .list_filters_item:last-child
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06)
+    .list_filters_item.open
+        background: #161719
+        border-color: #000
+        .list_filters_item_title
+            color: #fff
+        .list_filters_item_title:after
+            +arr(12, 6, rgba(255, 255, 255, 0.06), t)
 
 .list_filters_submenu
-	display: none
-	padding-bottom: 20px
+    display: none
+    padding-bottom: 20px
+
 .list_filters_item_title
-	font-family: "ProximaNovaExCnReg"
-	font-size: 18px
-	position: relative
-	padding: 17px 0
-	text-transform: uppercase
-	cursor: pointer
-	+trans
+    font-family: "ProximaNovaExCnReg"
+    font-size: 18px
+    position: relative
+    padding: 17px 0
+    text-transform: uppercase
+    cursor: pointer
+    +trans
+
 .list_filters_item_title:after
-	content: ''
-	position: absolute
-	top: 50%
-	margin-top: -3px
-	right: 0
-	+arr(12,6,rgba(255,255,255,0.1),b)
-	+trans
+    content: ''
+    position: absolute
+    top: 50%
+    margin-top: -3px
+    right: 0
+    +arr(12, 6, rgba(255, 255, 255, 0.1), b)
+    +trans
+
 .wrap_checkbox
-	cursor: pointer
-	.hidden_checkbox
-		display: none
-	.input_checkbox
-		display: inline-block
-		vertical-align: middle
-		width: 20px
-		height: 20px
-		position: relative
-		margin-right: 10px
-		top: -3px
-	.input_checkbox:after
-		display: block
-		content: ''
-		+sprite(checkbox, $pos: "abs_middle")
-		+trans
-	.input_checkbox:before
-		opacity: 0
-		+trans
-		display: block
-		content: ''
-		+sprite(checkbox_black_checked, $pos: "abs_middle")
-	.hidden_checkbox:checked + .wrap_checkbox_content .input_checkbox:after
-		opacity: 0
-	.hidden_checkbox:checked + .wrap_checkbox_content .input_checkbox:before
-		opacity: 1
-	.hidden_checkbox:checked + .wrap_checkbox_content
-		color: #fff
-	&.black_checkbox
-		.hidden_checkbox:checked + .wrap_checkbox_content
-			color: #000
-	.wrap_checkbox_content, .input_checkbox:after
-		+trans
-		-moz-user-select: none
-		-khtml-user-select: none
-		user-select: none
+    cursor: pointer
+    .hidden_checkbox
+        display: none
+    .input_checkbox
+        display: inline-block
+        vertical-align: middle
+        width: 20px
+        height: 20px
+        position: relative
+        margin-right: 10px
+        top: -3px
+    .input_checkbox:after
+        display: block
+        content: ''
+        +sprite(checkbox, $pos: "abs_middle")
+        +trans
+    .input_checkbox:before
+        opacity: 0
+        +trans
+        display: block
+        content: ''
+        +sprite(checkbox_black_checked, $pos: "abs_middle")
+    .hidden_checkbox:checked + .wrap_checkbox_content .input_checkbox:after
+        opacity: 0
+    .hidden_checkbox:checked + .wrap_checkbox_content .input_checkbox:before
+        opacity: 1
+    .hidden_checkbox:checked + .wrap_checkbox_content
+        color: #fff
+    &.black_checkbox
+        .hidden_checkbox:checked + .wrap_checkbox_content
+            color: #000
+    .wrap_checkbox_content, .input_checkbox:after
+        +trans
+        -moz-user-select: none
+        -khtml-user-select: none
+        user-select: none
+
 .list_filters_units
-	.wrap_checkbox
-		.input_checkbox
-			&:before
-				+sprite(checkbox_white_checked, $pos: "abs_middle")
+    .wrap_checkbox
+        .input_checkbox
+            &:before
+                +sprite(checkbox_white_checked, $pos: "abs_middle")
+
 .list_filters_submenu
-	li
-		margin-bottom: 20px
-		padding: 0 2px
-	li:last-child
-		margin-bottom: 0
+    li
+        margin-bottom: 20px
+        padding: 0 2px
+    li:last-child
+        margin-bottom: 0
+
 .sorting_bl_wrapper
-	margin-bottom: 30px
-	.title30px
-		line-height: 45px
+    margin-bottom: 30px
+    .title30px
+        line-height: 45px
+
 .products_grid_section
-	padding: 60px 0
+    padding: 60px 0
+
 .products_grid_header
-	margin-bottom: 25px
-	color: #fff
+    margin-bottom: 25px
+    color: #fff
+
 .sorting_bl
-	font-size: 15px
-	.sorting_bl_title
-		color: #3f3f3f
-		margin-right: 15px
+    font-size: 15px
+    .sorting_bl_title
+        color: #3f3f3f
+        margin-right: 15px
+
 .sorting_select
-	color: #fff
-	cursor: pointer
-	height: 45px
-	.trigger
-		position: absolute
-		top: 50%
-		right: 15px
-		margin-top: -3px
-		+arr(14,6,#fff,b)
-		z-index: 150
-		+trans
-	.select
-		width: 200px
-		padding: 13px 15px
-		background: #161719
-		color: #fff
-		border-radius: 5px
-		position: static !important
-	.dropdown
-		width: 100%
-		background: #161719
-		z-index: 100 !important
-		border-radius: 5px
-		li
-			padding: 13px 15px
-			color: #3f3f3f
-		li.sel 
-			color: #fff
-		li.sel:hover
-			color: #fff
-		li:hover
-			color: #ff3b28
+    color: #fff
+    cursor: pointer
+    height: 45px
+    .trigger
+        position: absolute
+        top: 50%
+        right: 15px
+        margin-top: -3px
+        +arr(14, 6, #fff, b)
+        z-index: 150
+        +trans
+    .select
+        width: 200px
+        padding: 13px 15px
+        background: #161719
+        color: #fff
+        border-radius: 5px
+        position: static !important
+    .dropdown
+        width: 100%
+        background: #161719
+        z-index: 100 !important
+        border-radius: 5px
+        li
+            padding: 13px 15px
+            color: #3f3f3f
+        li.sel
+            color: #fff
+        li.sel:hover
+            color: #fff
+        li:hover
+            color: #ff3b28
 
 .product_grid_content
-	position: relative
-	padding-left: 220px
-	.toggle_visibility
-		cursor: pointer
-	.filter_section
-		position: absolute
-		left: 0
-		top: 0
-		width: 200px
-		padding-left: 0
-		overflow: hidden
-		.filter_opened
-			position: relative
-			left: 0
-			+trans(all,0.5s,ease,0s)
-		.filter_open:hover
-			.filter_open_text
-				opacity: 1
-	.products_grid_item
-		width: 31.97%
-		margin-right: 2.045%
-		+trans(opacity,0.5s,ease,0s)
+    position: relative
+    padding-left: 220px
+    .toggle_visibility
+        cursor: pointer
+    .filter_section
+        position: absolute
+        left: 0
+        top: 0
+        width: 200px
+        padding-left: 0
+        overflow: hidden
+        .filter_opened
+            position: relative
+            left: 0
+            +trans(all, 0.5s, ease, 0s)
+        .filter_open:hover
+            .filter_open_text
+                opacity: 1
+    .products_grid_item
+        width: 31.97%
+        margin-right: 2.045%
+        +trans(opacity, 0.5s, ease, 0s)
 
-		.product_item_action_line
-			padding: 0 15px		
-	.products_grid_item:nth-child(3n+3)
-		margin-right: 0
-	&.filter_hidden
-		padding-left: 0
-		.filter_open
-			left: 0px
-			z-index: 50
-		.filter_opened
-			left: -230px
-		.products_grid_item
-			width: 23.61%
-			padding: 0 0
-			margin-right: 1.853333333%
-			.product_item_action_line
-				padding: 0 10px
+        .product_item_action_line
+            padding: 0 15px
+    .products_grid_item:nth-child(3n+3)
+        margin-right: 0
+    &.filter_hidden
+        padding-left: 0
+        .filter_open
+            left: 0px
+            z-index: 50
+        .filter_opened
+            left: -230px
+        .products_grid_item
+            width: 23.61%
+            padding: 0 0
+            margin-right: 1.853333333%
+            .product_item_action_line
+                padding: 0 10px
 
-			.product_item_img
-				img
-					max-width: 250px
-		.products_grid_item:nth-child(3n+3)
-			margin-right: 1.33%
-		.products_grid_item:nth-child(4n+4)
-			margin-right: 0
-		.filter_close_arrow
-			+rotate(180)
-			left: 230px
-	&.opening	
-		.filter_open
-			left: -230px
-			+trans(all,0.5s,ease,0s)
-		.filter_opened
-			left: 0
-			+trans(all,0.5s,ease,0s)
-	&.animation
-		.filter_opened
-			left: -230px
-		.products_grid_item
-			opacity: 0
-	
-	.sorting_section_item
-		.products_grid_item
-			.product_item_action_line
-				padding: 0
+            .product_item_img
+                img
+                    max-width: 250px
+        .products_grid_item:nth-child(3n+3)
+            margin-right: 1.33%
+        .products_grid_item:nth-child(4n+4)
+            margin-right: 0
+        .filter_close_arrow
+            +rotate(180)
+            left: 230px
+    &.opening
+        .filter_open
+            left: -230px
+            +trans(all, 0.5s, ease, 0s)
+        .filter_opened
+            left: 0
+            +trans(all, 0.5s, ease, 0s)
+    &.animation
+        .filter_opened
+            left: -230px
+        .products_grid_item
+            opacity: 0
 
-			.product_item_img
-				img
-					max-width: 160px
+    .sorting_section_item
+        .products_grid_item
+            .product_item_action_line
+                padding: 0
+
+            .product_item_img
+                img
+                    max-width: 160px
 
 .product-zoom-detail
-	opacity: 0.5
-	+trans
-	&:hover
-		opacity: 1
-			
+    opacity: 0.5
+    +trans
+    &:hover
+        opacity: 1
+
 .advantages_block
-	border-top: 1px solid rgba(63,63,63,0.5)
-	padding: 20px 0 45px
-	text-align: center
-	.advantages_title
-		font-size: 20px
-		font-family: $pn_bold
-		margin-bottom: 14px
-	.icon
-		+sprite(call_us_white, $pos: "abs_middle")
-		+trans
-	.icon_hover
-		+sprite(call_us_red, $pos: "abs_middle")
-		opacity: 0
-		+trans
-	.advantages_item
-		width: 33.3333%
-		float: left
-		display: block
-		+trans
-		&:hover
-			color: $red_color
-			.icon
-				opacity: 0
-			.icon_hover
-				opacity: 1
-	.advantages_icon_wrap 
-		height: 60px
-		position: relative
-	.consultation_icon
-		+sprite(call_us_white, $pos: "abs_middle")
-	.consultation_icon.icon_hover
-		+sprite(call_us_red, $pos: "abs_middle")
-	.delivery_icon
-		+sprite(cart_move_right, $pos: "abs_middle")
-	.delivery_icon.icon_hover
-		+sprite(cart_move_right_hover, $pos: "abs_middle")
-	.payment_icon
-		+sprite(money_move, $pos: "abs_middle")
-	.payment_icon.icon_hover
-		+sprite(money_move_hover, $pos: "abs_middle")
+    border-top: 1px solid rgba(63, 63, 63, 0.5)
+    padding: 20px 0 45px
+    text-align: center
+    .advantages_title
+        font-size: 20px
+        font-family: $pn_bold
+        margin-bottom: 14px
+    .icon
+        +sprite(call_us_white, $pos: "abs_middle")
+        +trans
+    .icon_hover
+        +sprite(call_us_red, $pos: "abs_middle")
+        opacity: 0
+        +trans
+    .advantages_item
+        width: 33.3333%
+        float: left
+        display: block
+        +trans
+        &:hover
+            color: $red_color
+            .icon
+                opacity: 0
+            .icon_hover
+                opacity: 1
+    .advantages_icon_wrap
+        height: 60px
+        position: relative
+    .consultation_icon
+        +sprite(call_us_white, $pos: "abs_middle")
+    .consultation_icon.icon_hover
+        +sprite(call_us_red, $pos: "abs_middle")
+    .delivery_icon
+        +sprite(cart_move_right, $pos: "abs_middle")
+    .delivery_icon.icon_hover
+        +sprite(cart_move_right_hover, $pos: "abs_middle")
+    .payment_icon
+        +sprite(money_move, $pos: "abs_middle")
+    .payment_icon.icon_hover
+        +sprite(money_move_hover, $pos: "abs_middle")
 //product page end//
 
 .tar
-	text-align: right
-
+    text-align: right
 
 //contact page start//
 .contacts_page
-	.gray_phone_big
-		margin-bottom: 8px
-	.red_mail_link
-		margin-bottom: 35px
-	.standard_descr
-		max-width: 480px
-		margin: 20px 0 38px
-	.standard_form
-		max-width: 640px
+    .gray_phone_big
+        margin-bottom: 8px
+    .red_mail_link
+        margin-bottom: 35px
+    .standard_descr
+        max-width: 480px
+        margin: 20px 0 38px
+    .standard_form
+        max-width: 640px
+
 .gray_phone_big
-	color: #fff
-	font-family: "Oranienbaum"
-	font-size: 50px
-	letter-spacing: -1.1px
+    color: #fff
+    font-family: "Oranienbaum"
+    font-size: 50px
+    letter-spacing: -1.1px
+
 .standard_descr
-	font-family: $pnr
-	font-size: 15px
+    font-family: $pnr
+    font-size: 15px
 //contact page end//
 
 //faq page start//
 .faq_accordion
-	max-width: 640px
-	margin-bottom: 20px
-	.accordion_item
-		margin-bottom: 33px
+    max-width: 640px
+    margin-bottom: 20px
+    .accordion_item
+        margin-bottom: 33px
 
-		.icon_plus
-			+sprite(plus_darkgray_big, $pos: "abs_middle")
+        .icon_plus
+            +sprite(plus_darkgray_big, $pos: "abs_middle")
 
-		.icon_minus
-			+sprite(minus_white_big, $pos: "abs_middle")
+        .icon_minus
+            +sprite(minus_white_big, $pos: "abs_middle")
 
-		.icon_minus_hover
-			+sprite(minus_red_big, $pos: "abs_middle")
+        .icon_minus_hover
+            +sprite(minus_red_big, $pos: "abs_middle")
 
-		&.open
-			.accordion_content
-				display: block
-			.accordion_toggle
-				color: #fff
-				.icon_plus, .icon_plus_hover
-					opacity: 0
-				.icon_minus
-					opacity: 1
+        &.open
+            .accordion_content
+                display: block
+            .accordion_toggle
+                color: #fff
+                .icon_plus, .icon_plus_hover
+                    opacity: 0
+                .icon_minus
+                    opacity: 1
 
-				&:hover
-					color: #ff3b28
-					.icon_plus, .icon_plus_hover, .icon_minus
-						opacity: 0
-					.icon_minus_hover
-						opacity: 1
-	.accordion_toggle
-		padding-left: 38px
-		font-size: 30px
-		font-family: $o
-		letter-spacing: -0.8px
-		position: relative
-		color: #3f3f3f
-		cursor: pointer
-		+trans
-		&:hover
-			color: $red_color
+                &:hover
+                    color: #ff3b28
+                    .icon_plus, .icon_plus_hover, .icon_minus
+                        opacity: 0
+                    .icon_minus_hover
+                        opacity: 1
+    .accordion_toggle
+        padding-left: 38px
+        font-size: 30px
+        font-family: $o
+        letter-spacing: -0.8px
+        position: relative
+        color: #3f3f3f
+        cursor: pointer
+        +trans
+        &:hover
+            color: $red_color
 
-			.icon_plus
-				opacity: 0
+            .icon_plus
+                opacity: 0
 
-			.icon_plus_hover
-				opacity: 1
-	.accordion_content
-		padding-left: 38px
-		display: none
-		font-size: 15px
-		font-family: $pnr
-		padding-top: 20px
+            .icon_plus_hover
+                opacity: 1
+    .accordion_content
+        padding-left: 38px
+        display: none
+        font-size: 15px
+        font-family: $pnr
+        padding-top: 20px
 //faq page end//
 
 .big_product_image_carousel
-	height: 640px
+    height: 640px
 
 //product page start//
 .similar_product
-	text-align: center
-	.similar_product_title
-		font-family: $pn_bold
-		font-size: 20px
-		margin-bottom: 25px
-	.similar_product_item
-		display: inline-block
-		vertical-align: middle
-		width: 100%
-		height: 180px
-		text-align: center
-		position: relative
-		a
-			display: block
-			width: 100%
-			height: 100%
-		img
-			max-width: 100%
-			max-height: 100%
+    text-align: center
+    .similar_product_title
+        font-family: $pn_bold
+        font-size: 20px
+        margin-bottom: 25px
+    .similar_product_item
+        display: inline-block
+        vertical-align: middle
+        width: 100%
+        height: 180px
+        text-align: center
+        position: relative
+        a
+            display: block
+            width: 100%
+            height: 100%
+        img
+            max-width: 100%
+            max-height: 100%
 
-	.owl-controls
-		text-align: center
-		margin-top: 15px
+    .owl-controls
+        text-align: center
+        margin-top: 15px
 
-	.owl-page
-		display: inline-block
-		vertical-align: middle
-		width: 8px
-		height: 8px
-		margin: 0 5px
-		background: #3f3f3f
-		border-radius: 50%
+    .owl-page
+        display: inline-block
+        vertical-align: middle
+        width: 8px
+        height: 8px
+        margin: 0 5px
+        background: #3f3f3f
+        border-radius: 50%
 
-		&.active
-			background: #fff
+        &.active
+            background: #fff
 
 .product_soc_wrapper
-	text-align: center
-	margin-bottom: 37px
-	.soc_units
-		margin-bottom: 32px
+    text-align: center
+    margin-bottom: 37px
+    .soc_units
+        margin-bottom: 32px
+
 .soc_units
-	.soc_icon
-		+sprite(soc1)
-	.soct_item
-		display: inline-block
-		vertical-align: middle
-		margin: 0 6px
-	.soc_icon.the1 
-		+sprite(soc1)
-	.soc_icon.the2
-		+sprite(soc2)
-	.soc_icon.the3 
-		+sprite(soc3)
-	.soc_icon.the4 
-		+sprite(soc4)
-	.soc_icon.the5 
-		+sprite(soc5)
-	.soc_icon.the6 
-		+sprite(soc6)
+    .soc_icon
+        +sprite(soc1)
+    .soct_item
+        display: inline-block
+        vertical-align: middle
+        margin: 0 6px
+    .soc_icon.the1
+        +sprite(soc1)
+    .soc_icon.the2
+        +sprite(soc2)
+    .soc_icon.the3
+        +sprite(soc3)
+    .soc_icon.the4
+        +sprite(soc4)
+    .soc_icon.the5
+        +sprite(soc5)
+    .soc_icon.the6
+        +sprite(soc6)
+
 .product_descr_wrapper
-	padding: 67px 0 84px
+    padding: 67px 0 84px
+
 .product_descr_wrapper_left
-	width: 60%
-	float: left
+    width: 60%
+    float: left
+
 .product_descr_wrapper_right
-	width: 40%
-	float: right
-	padding-left: 10px
+    width: 40%
+    float: right
+    padding-left: 10px
+
 .product_page_slider
-	text-align: center
-	margin-bottom: 38px
-	#sync2
-		.owl-item
-			width: 70px
-			height: 100px
-		.item
-			height: 100%
-		img
-			max-width: 100%
-			max-height: 100%
+    text-align: center
+    margin-bottom: 38px
+    #sync2
+        .owl-item
+            width: 70px
+            height: 100px
+        .item
+            height: 100%
+        img
+            max-width: 100%
+            max-height: 100%
+
 .product_page_title
-	font-size: 46px
-	font-family: $o
-	letter-spacing: -1px
-	margin-bottom: 12px
+    font-size: 46px
+    font-family: $o
+    letter-spacing: -1px
+    margin-bottom: 12px
+
 .product_page_article
-	font-family: $pnr
-	font-size: 15px
-	color: #3f3f3f
-	margin-bottom: 15px
+    font-family: $pnr
+    font-size: 15px
+    color: #3f3f3f
+    margin-bottom: 15px
+
 .product_page_old_price
-	color: #5b5b5b
-	font-size: 13px
-	margin-bottom: 13px
+    color: #5b5b5b
+    font-size: 13px
+    margin-bottom: 13px
+
 .product_page_price
-	font-size: 19px
+    font-size: 19px
+
 .product_page_descr
-	font-size: 15px
-	max-width: 360px
-	line-height: 1.34em
-	margin-bottom: 40px
+    font-size: 15px
+    max-width: 360px
+    line-height: 1.34em
+    margin-bottom: 40px
+
 .product_page_buy_btn
-	margin-bottom: 18px
-	.standard_white_btn
-		padding: 7px 59px
+    margin-bottom: 18px
+    .standard_white_btn
+        padding: 7px 59px
+
 .product_page_postscript_button
-	font-size: 20px
-	padding-left: 0
-	margin-bottom: 27px
+    font-size: 20px
+    padding-left: 0
+    margin-bottom: 27px
+
 .features_product
-	line-height: 2em
-	.features_name
-		color: #3f3f3f
+    line-height: 2em
+    .features_name
+        color: #3f3f3f
 //product page end//
 
 //personal data start//
 .main_wrapper.white_page
-	background: #fff
-	color: #000
+    background: #fff
+    color: #000
 //personal data end//
 
 
 //news page start//
 .standard_close
-	width: 26px
-	height: 26px
-	position: absolute
-	right: 17px
-	top: 17px
-	cursor: pointer
-	.line1
-		+sprite(close_black, $pos: "abs_middle")
-		+trans
-	.line2
-		+sprite(close_red, $pos: "abs_middle")
-		opacity: 0
-		+trans
-	&:hover
-		.line1, .line2
-			opacity: 0
-		.line2
-			opacity: 1
+    width: 26px
+    height: 26px
+    position: absolute
+    right: 17px
+    top: 17px
+    cursor: pointer
+    .line1
+        +sprite(close_black, $pos: "abs_middle")
+        +trans
+    .line2
+        +sprite(close_red, $pos: "abs_middle")
+        opacity: 0
+        +trans
+    &:hover
+        .line1, .line2
+            opacity: 0
+        .line2
+            opacity: 1
+
 .shipping_payment_title
-	font-size: 46px
-	font-family: $o
-	margin-bottom: 25px
-	letter-spacing: -1px
+    font-size: 46px
+    font-family: $o
+    margin-bottom: 25px
+    letter-spacing: -1px
 
 .shipping_payment_descr
-	line-height: 1.4
+    line-height: 1.4
+
 .selectbox
-	+ select
-		left: -9999px
+    + select
+        left: -9999px
+
 .standard_popup
-	position: fixed
-	width: 100%
-	height: 100%
-	left: 0px
-	top: 0px
-	z-index: 200
-	text-align: center
-	overflow: auto
-	display: none
-	color: #18191b
-	.table
-		padding: 50px 0
-	.td
-		vertical-align: middle
-	.popup_content
-		width: 780px
-		display: inline-block
-		vertical-align: middle
-		padding: 20px 40px 50px
-		background: #FFF 
-		position: relative
-		text-align: left
-		z-index: 150
-	&.shipping_payment
-		display: none
-		.popup_content
-			padding: 50px 40px 60px
+    position: fixed
+    width: 100%
+    height: 100%
+    left: 0px
+    top: 0px
+    z-index: 200
+    text-align: center
+    overflow: auto
+    display: none
+    color: #18191b
+    .table
+        padding: 50px 0
+    .td
+        vertical-align: middle
+    .popup_content
+        width: 780px
+        display: inline-block
+        vertical-align: middle
+        padding: 20px 40px 50px
+        background: #FFF
+        position: relative
+        text-align: left
+        z-index: 150
+    &.shipping_payment
+        display: none
+        .popup_content
+            padding: 50px 40px 60px
 
-	.popup_title
-		font-size: 30px
-		font-family: "Oranienbaum"
-		margin-bottom: 20px
-		letter-spacing: -1px
+    .popup_title
+        font-size: 30px
+        font-family: "Oranienbaum"
+        margin-bottom: 20px
+        letter-spacing: -1px
+
 .article_popup
-	.short_nav_line
-		margin-bottom: 30px
-		.prev, .next
-			width: 12px
-			height: 20px
-			position: relative
-			margin: 0 18px 0 0 
-			.icon
-				position: absolute
-				left: 0
-				top: 0
-				width: 100%
-				height: 100%
-				+sprite(left_black_small)
-				+trans
-				opacity: 1
-			.icon_hover
-				opacity: 0
-				+sprite(left_red_small)
-		.next
-			.icon
-				+sprite(right_black_small)
-			.icon_hover
-				+sprite(right_red_small)
-		.prev:hover, .next:hover
-			.icon
-				opacity: 0
-			.icon_hover
-				opacity: 1
+    .short_nav_line
+        margin-bottom: 30px
+        .prev, .next
+            width: 12px
+            height: 20px
+            position: relative
+            margin: 0 18px 0 0
+            .icon
+                position: absolute
+                left: 0
+                top: 0
+                width: 100%
+                height: 100%
+                +sprite(left_black_small)
+                +trans
+                opacity: 1
+            .icon_hover
+                opacity: 0
+                +sprite(left_red_small)
+        .next
+            .icon
+                +sprite(right_black_small)
+            .icon_hover
+                +sprite(right_red_small)
+        .prev:hover, .next:hover
+            .icon
+                opacity: 0
+            .icon_hover
+                opacity: 1
 
-	.article_popup_date
-		font-size: 13px
-		font-family: $pnr
-		margin-bottom: 5px
-		letter-spacing: -0.5px
-	.article_popup_title
-		font-size: 30px
-		font-family: $o
-		margin-bottom: 20px
-		letter-spacing: -1px
-	.article_popup_img
-		font-size: 0px
-		line-height: 0px
-		letter-spacing: -1px
-		margin-bottom: 35px
-		img
-			max-width: 100%
-	.article_popup_descr
-		font-size: 15px
-		font-family: $pnr
-		line-height: 1.4
-		margin-bottom: 35px
-		p
-			margin-bottom: 20px
+    .article_popup_date
+        font-size: 13px
+        font-family: $pnr
+        margin-bottom: 5px
+        letter-spacing: -0.5px
+    .article_popup_title
+        font-size: 30px
+        font-family: $o
+        margin-bottom: 20px
+        letter-spacing: -1px
+    .article_popup_img
+        font-size: 0px
+        line-height: 0px
+        letter-spacing: -1px
+        margin-bottom: 35px
+        img
+            max-width: 100%
+    .article_popup_descr
+        font-size: 15px
+        font-family: $pnr
+        line-height: 1.4
+        margin-bottom: 35px
+        p
+            margin-bottom: 20px
 
-			&:last-child
-				margin-bottom: 0
-	.article_popup_full
-		margin-bottom: 55px
-	.full_nav_line
-		font-size: 13px
-		font-family: $pn_bold
-		.prev 
-			padding-left: 25px
-			position: relative
-			+trans
-			.icon
-				content: ''
-				position: absolute
-				width: 12px
-				height: 20px
-				left: 0
-				top: 50%
-				margin-top: -10px
-				+sprite(left_black_small)
-				+trans
-				opacity: 1
-			.icon_hover
-				opacity: 0
-				+sprite(left_red_small)
-		.next
-			padding-right: 25px
-			position: relative
-			+trans
-			.icon
-				content: ''
-				position: absolute
-				width: 12px
-				height: 20px
-				right: 0
-				top: 50%
-				margin-top: -10px
-				+sprite(right_black_small)
-				+trans
-				opacity: 1
-			.icon_hover
-				opacity: 0
-				+sprite(right_red_small)
-		.prev:hover, .next:hover
-			color: $red_color
-			.icon
-				opacity: 0
-			.icon_hover
-				opacity: 1
+            &:last-child
+                margin-bottom: 0
+    .article_popup_full
+        margin-bottom: 55px
+    .full_nav_line
+        font-size: 13px
+        font-family: $pn_bold
+        .prev
+            padding-left: 25px
+            position: relative
+            +trans
+            .icon
+                content: ''
+                position: absolute
+                width: 12px
+                height: 20px
+                left: 0
+                top: 50%
+                margin-top: -10px
+                +sprite(left_black_small)
+                +trans
+                opacity: 1
+            .icon_hover
+                opacity: 0
+                +sprite(left_red_small)
+        .next
+            padding-right: 25px
+            position: relative
+            +trans
+            .icon
+                content: ''
+                position: absolute
+                width: 12px
+                height: 20px
+                right: 0
+                top: 50%
+                margin-top: -10px
+                +sprite(right_black_small)
+                +trans
+                opacity: 1
+            .icon_hover
+                opacity: 0
+                +sprite(right_red_small)
+        .prev:hover, .next:hover
+            color: $red_color
+            .icon
+                opacity: 0
+            .icon_hover
+                opacity: 1
 
 .grid-sizer
-	width: 2.32%
+    width: 2.32%
 
 .overlay_popup
-	position: fixed
-	width: 100%
-	background: rgba(0, 0, 0, 0.8)
-	height: 100%
-	left: 0px
-	top: 0px
-	z-index: 100
+    position: fixed
+    width: 100%
+    background: rgba(0, 0, 0, 0.8)
+    height: 100%
+    left: 0px
+    top: 0px
+    z-index: 100
+
 .news_grid_units
-	margin-right: -20px
+    margin-right: -20px
+
 .news_grid_item
-	width: 23.26%
-	// margin-right: 20px
-	margin-bottom: 2.32%
-	background: #161719
-	+trans
-	&:hover
-		background: #fff
+    width: 23.26%
+    // margin-right: 20px
+    margin-bottom: 2.32%
+    background: #161719
+    +trans
+    &:hover
+        background: #fff
 
-		.news_item_title
-			color: #ff3b28
+        .news_item_title
+            color: #ff3b28
 
-		.news_item_descr
-			color: #000
+        .news_item_descr
+            color: #000
 
-		.news_item_img_wrap
-			&:after
-				background: rgba(0,0,0,0)
+        .news_item_img_wrap
+            &:after
+                background: rgba(0, 0, 0, 0)
 
 .news_item_date
-	font-family: $pnr
-	color: #3f3f3f
-	font-size: 11px
-	margin-bottom: 5px
-.news_item_title
-	color: $red_color
-	font-size: 18px
-	font-family: $pn_bold
-	margin-bottom: 13px
-	line-height: 1.15
-	+trans
-.news_item_descr
-	font-family: $pnr
-	font-size: 13px
-	margin-bottom: 10px
-	line-height: 1.4
-	+trans
-.news_item_to_read
-	color: $red_color
-	font-size: 13px
-	font-family: $pnr
-	.arrow
-		font-family: "arial"
-		+trans
-		position: relative
-.news_item_to_read:hover
-	.arrow
-		margin-left: 5px
-.news_item_img_wrap
-	font-size: 0
-	letter-spacing: -1px
-	line-height: 0
-	position: relative
+    font-family: $pnr
+    color: #3f3f3f
+    font-size: 11px
+    margin-bottom: 5px
 
-	&:after
-		+trans
-		position: absolute
-		top: 0
-		left: 0
-		width: 100%
-		height: 100%
-		background: rgba(0,0,0,0.5)
-		display: block
-		content: ''
-	img
-		width: 100%
+.news_item_title
+    color: $red_color
+    font-size: 18px
+    font-family: $pn_bold
+    margin-bottom: 13px
+    line-height: 1.15
+    +trans
+
+.news_item_descr
+    font-family: $pnr
+    font-size: 13px
+    margin-bottom: 10px
+    line-height: 1.4
+    +trans
+
+.news_item_to_read
+    color: $red_color
+    font-size: 13px
+    font-family: $pnr
+    .arrow
+        font-family: "arial"
+        +trans
+        position: relative
+
+.news_item_to_read:hover
+    .arrow
+        margin-left: 5px
+
+.news_item_img_wrap
+    font-size: 0
+    letter-spacing: -1px
+    line-height: 0
+    position: relative
+
+    &:after
+        +trans
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(0, 0, 0, 0.5)
+        display: block
+        content: ''
+    img
+        width: 100%
+
 .news_item_content_wrap
-	padding: 15px
+    padding: 15px
+
 .news_grid_item.white_item
-	background: #fff
-	.news_item_descr
-		color: #000
+    background: #fff
+    .news_item_descr
+        color: #000
+
 .news_grid_item
-	.white_title
-		color: #fff
+    .white_title
+        color: #fff
 //nest page end//
 
 //history_orders page start//
 .history_orders_nav
-	font-family: $pn_bold
-	color: #afafaf
-	margin-bottom: 30px
-	li
-		display: inline-block
-		vertical-align: middle
-		margin-right: 8px
-		+trans
+    font-family: $pn_bold
+    color: #afafaf
+    margin-bottom: 30px
+    li
+        display: inline-block
+        vertical-align: middle
+        margin-right: 8px
+        +trans
 
-		a
-			border-bottom: 1px solid #afafaf
+        a
+            border-bottom: 1px solid #afafaf
 
-		&.active, &:hover
-			color: #000
-			text-decoration: none
+        &.active, &:hover
+            color: #000
+            text-decoration: none
 
-		&:hover
-			color: $red_color	
+        &:hover
+            color: $red_color
 
-		&.active
-			a
-				border-bottom: none
+        &.active
+            a
+                border-bottom: none
 
 .history_orders_item_header
-	border-bottom: 1px solid #f0f0f0
-	height: 82px
+    border-bottom: 1px solid #f0f0f0
+    height: 82px
 
 .history_orders_item
-	&:first-child, &.open + .history_orders_item
-		.history_orders_item_header
-			border-top: 1px solid #f0f0f0
+    &:first-child, &.open + .history_orders_item
+        .history_orders_item_header
+            border-top: 1px solid #f0f0f0
+
 .orders_table
-	.td
-		vertical-align: middle
-		position: relative
-	
-	.total_amount_td
-		.ruble10px
-			margin-left: 5px
+    .td
+        vertical-align: middle
+        position: relative
+
+    .total_amount_td
+        .ruble10px
+            margin-left: 5px
 
 .order_number_td
-	padding-left: 45px
-	width: 27%
-	text-align: right
-	.icon_plus_wrap
-		top: 23px
-	&.accordion_toggle
-		cursor: pointer
-		&:hover
-			color: $red_color
-			.icon_plus
-				opacity: 0
-			.icon_plus_hover
-				opacity: 1
-	.order_number
-		+trans
-		border-bottom: 1px dotted 
+    padding-left: 45px
+    width: 27%
+    text-align: right
+    .icon_plus_wrap
+        top: 23px
+    &.accordion_toggle
+        cursor: pointer
+        &:hover
+            color: $red_color
+            .icon_plus
+                opacity: 0
+            .icon_plus_hover
+                opacity: 1
+    .order_number
+        +trans
+        border-bottom: 1px dotted
+
 .order_status_td, .price_item_td
-	text-align: left
-	width: 43%
-	padding-left: 18.3%
+    text-align: left
+    width: 43%
+    padding-left: 18.3%
+
 .order_status
-	&.not_paid
-		color: $red_color
-	&.paid
-		color: $green_color
-	&.delivered
-		color: #afafaf	
+    &.not_paid
+        color: $red_color
+    &.paid
+        color: $green_color
+    &.delivered
+        color: #afafaf
+
 .total_product_td
-	text-align: left
-	width: 10%
+    text-align: left
+    width: 10%
+
 .total_amount_td
-	text-align: right
-	width: 20%
-	padding-right: 37px
-	.total_amount
-		position: relative
-	.ruble10px
-		top: 1px
-		position: absolute
-		margin-left: 2px
-		left: 100%
+    text-align: right
+    width: 20%
+    padding-right: 37px
+    .total_amount
+        position: relative
+    .ruble10px
+        top: 1px
+        position: absolute
+        margin-left: 2px
+        left: 100%
+
 .history_orders_item_content
-	padding: 20px 0 30px
+    padding: 20px 0 30px
 
-	.order_number
-		border-bottom: 1px solid #C5C5C6
-		line-height: 1
+    .order_number
+        border-bottom: 1px solid #C5C5C6
+        line-height: 1
 
-		&:hover
-			color: $red_color
+        &:hover
+            color: $red_color
+
 .orders_table_units
-	overflow: hidden
-	position: relative
-	.orders_table
-		padding: 11px 0
-		height: auto
-	.orders_table:last-child
-		padding-bottom: 20px
-		.order_number
-			position: relative
-		.order_number:after
-			content: ''
-			position: absolute
-			top: 40px
-			left: 0
-			height: 1px
-			width: 1000px
-			background: #f0f0f0
+    overflow: hidden
+    position: relative
+    .orders_table
+        padding: 11px 0
+        height: auto
+    .orders_table:last-child
+        padding-bottom: 20px
+        .order_number
+            position: relative
+        .order_number:after
+            content: ''
+            position: absolute
+            top: 40px
+            left: 0
+            height: 1px
+            width: 1000px
+            background: #f0f0f0
 
-	&:after
-		position: absolute
-		content: ''
-		bottom: 0
-		left: 145px
-		display: block
-		width: 100%
-		height: 1px
-		background: #f0f0f0
+    &:after
+        position: absolute
+        content: ''
+        bottom: 0
+        left: 145px
+        display: block
+        width: 100%
+        height: 1px
+        background: #f0f0f0
+
 .accordion_content
-	display: none
+    display: none
+
 .accordion_item.open
-	.accordion_content
-		display: block
+    .accordion_content
+        display: block
+
 .history_orders_item
-	color: #afafaf
-	&.open
-		color: #18191b
-		.icon_plus, .icon_plus_hover
-			opacity: 0
-		.icon_minus
-			opacity: 1
+    color: #afafaf
+    &.open
+        color: #18191b
+        .icon_plus, .icon_plus_hover
+            opacity: 0
+        .icon_minus
+            opacity: 1
 
-		&:hover
-			.icon_plus, .icon_plus_hover, .icon_minus
-				opacity: 0
-			.icon_minus_hover
-				opacity: 1
-
+        &:hover
+            .icon_plus, .icon_plus_hover, .icon_minus
+                opacity: 0
+            .icon_minus_hover
+                opacity: 1
 
 .total_price_block
-	.crossed_price_line
-		margin-bottom: 5px
-	.total_price_line
-		font-family: $pn_bold
-		font-size: 15px
-	.total_price_num
-		font-size: 22px
-		position: relative
-		.ruble10px
-			font-size: 11px
-			top: 3px
-			left: 100%
-			position: absolute
-			margin-left: 7px
-	.crossed_price
-		font-size: 16px
-		color: #afafaf
-		font-family: $pnr
-	.discount_line
-		font-size: 13px
-		font-family: $pnr
-		color: #18191b
-		margin-bottom: 15px
-	.discount_num
-		font-family: $pn_bold
-		color: $red_color
-	&.history_orders
-		text-align: right
-		margin-top: 25px
-		.total_price_content
-			padding-right: 35px
-			margin-bottom: 25px
-	.total_price_text
-		margin-right: 15px
+    .crossed_price_line
+        margin-bottom: 5px
+    .total_price_line
+        font-family: $pn_bold
+        font-size: 15px
+    .total_price_num
+        font-size: 22px
+        position: relative
+        .ruble10px
+            font-size: 11px
+            top: 3px
+            left: 100%
+            position: absolute
+            margin-left: 7px
+    .crossed_price
+        font-size: 16px
+        color: #afafaf
+        font-family: $pnr
+    .discount_line
+        font-size: 13px
+        font-family: $pnr
+        color: #18191b
+        margin-bottom: 15px
+    .discount_num
+        font-family: $pn_bold
+        color: $red_color
+    &.history_orders
+        text-align: right
+        margin-top: 25px
+        .total_price_content
+            padding-right: 35px
+            margin-bottom: 25px
+    .total_price_text
+        margin-right: 15px
 
 //history_orders page end//
 
 //history page start//
 .history_descr_item_title
-	font-size: 30px
-	font-family: $o
-	margin-bottom: 20px
-	letter-spacing: -0.7px
-.history_descr_item_text
-	line-height: 1.33
+    font-size: 30px
+    font-family: $o
+    margin-bottom: 20px
+    letter-spacing: -0.7px
 
-	a
-		text-decoration: underline
-		color: $red_color
+.history_descr_item_text
+    line-height: 1.33
+
+    a
+        text-decoration: underline
+        color: $red_color
+
 .history_descr_item
-	@extend .clearfix
-	position: relative
-	margin-bottom: 35px
+    @extend .clearfix
+    position: relative
+    margin-bottom: 35px
 
 .history_descr_text_content
-	padding-right: 40px
-	width: 51%
-	float: left
-	box-sizing: border-box
-.history_descr_more_content
-	float: right
-	width: 49%
-	font-size: 13px
-	font-family: $pn_rit
-	color: #3f3f3f
+    padding-right: 40px
+    width: 51%
+    float: left
+    box-sizing: border-box
 
-	img
-		max-width: 100%
-		margin-bottom: 20px
+.history_descr_more_content
+    float: right
+    width: 49%
+    font-size: 13px
+    font-family: $pn_rit
+    color: #3f3f3f
+
+    img
+        max-width: 100%
+        margin-bottom: 20px
 //history page end//
 
 //all_products page start//
 .change_password_form
-	max-width: 313px
-	width: auto
+    max-width: 313px
+    width: auto
+
 .all_model_title
-	font-size: 15px
-	color: #3f3f3f
-	font-family: $pnr
-	margin-top: 10px
+    font-size: 15px
+    color: #3f3f3f
+    font-family: $pnr
+    margin-top: 10px
+
 .main_wrapper.all_products
-	.product_grid_content
-		padding-left: 0
+    .product_grid_content
+        padding-left: 0
 
-	.products_grid_section
-		padding: 30px 0
+    .products_grid_section
+        padding: 30px 0
 
-	.product_item_last_price
-		position: relative
-		display: inline-block
-		vertical-align: middle
-		width: auto
+    .product_item_last_price
+        position: relative
+        display: inline-block
+        vertical-align: middle
+        width: auto
 
-	.product_item_img
-		margin-bottom: 5px
-		font-size: 0
+    .product_item_img
+        margin-bottom: 5px
+        font-size: 0
+
 .sorting_section_item
-	margin-bottom: 20px
-	.products_grid_item
-		width: 15%
-		margin-right: 2%
-		margin-bottom: 20px
-		.product_item_price_wrap, .product_item_action_bar
-			text-align: center
-			width: 100%
-			float: none
-			left: 0
-	.products_grid_item:nth-child(3n+3)
-		margin-right: 2%
-	.products_grid_item:nth-child(6n+6)
-		margin-right: 0
-	.product_item_img
-		height: 162px
-		overflow: hidden
+    margin-bottom: 20px
+    .products_grid_item
+        width: 15%
+        margin-right: 2%
+        margin-bottom: 20px
+        .product_item_price_wrap, .product_item_action_bar
+            text-align: center
+            width: 100%
+            float: none
+            left: 0
+    .products_grid_item:nth-child(3n+3)
+        margin-right: 2%
+    .products_grid_item:nth-child(6n+6)
+        margin-right: 0
+    .product_item_img
+        height: 162px
+        overflow: hidden
+
 .sorting_section_title
-	font-size: 30px
-	font-family: $o
-	margin-bottom: 15px
+    font-size: 30px
+    font-family: $o
+    margin-bottom: 15px
 //all_products page end//
 
 
 .the_cart_price_span
-	position: relative
-	top: 2px
+    position: relative
+    top: 2px
 
 .filter_arrow_block
-	.filter_arrow--triangle
-		position: absolute
-		top: 5px
-		left: 0
-		border: 6px solid transparent
-		border-left: 6px solid #fff
-		transform-origin: center center
+    .filter_arrow--triangle
+        position: absolute
+        top: 5px
+        left: 0
+        border: 6px solid transparent
+        border-left: 6px solid #fff
+        transform-origin: center center
 
 .product_grid_content
-	.filter_arrow_block
-		position: absolute
-		top: 15px
-		left: -45px
-		width: 20px
-		height: 20px
-		z-index: 10
+    .filter_arrow_block
+        position: absolute
+        top: 15px
+        left: -45px
+        width: 20px
+        height: 20px
+        z-index: 10
 
-		.filter_arrow--triangle
-			position: absolute
-			top: 2px
-			left: 0
-			border: 7px solid transparent
-			border-right: 7px solid #fff
-			transform-origin: center center
-			+trans()
+        .filter_arrow--triangle
+            position: absolute
+            top: 2px
+            left: 0
+            border: 7px solid transparent
+            border-right: 7px solid #fff
+            transform-origin: center center
+            +trans()
 
-			&:hover
-				border: 7px solid transparent
-				border-right: 7px solid #ff3b28
+            &:hover
+                border: 7px solid transparent
+                border-right: 7px solid #ff3b28
 
-			&:hover + .filter_arrow--tooltip_wrapper
-				opacity: 1
+            &:hover + .filter_arrow--tooltip_wrapper
+                opacity: 1
 
-		.filter_arrow--tooltip_wrapper
-			opacity: 0
-			display: block
-			position: absolute
-			top: 50%
-			line-height: 30px
-			left: 100%
-			margin-left: 25px
-			height: 30px
-			margin-top: -15px
-			white-space: nowrap
-			z-index: 3
-			+trans
+        .filter_arrow--tooltip_wrapper
+            opacity: 0
+            display: block
+            position: absolute
+            top: 50%
+            line-height: 30px
+            left: 100%
+            margin-left: 25px
+            height: 30px
+            margin-top: -15px
+            white-space: nowrap
+            z-index: 3
+            +trans
 
-		.filter_arrow--tooltip
-			color: #ff3b28
-			// box-shadow: 0 0 10px 10px #000
-			// background: #000
-			white-space: nowrap
-			display: none
-			+trans
+        .filter_arrow--tooltip
+            color: #ff3b28
+            // box-shadow: 0 0 10px 10px #000
+            // background: #000
+            white-space: nowrap
+            display: none
+            +trans
 
-		.close_filter--tooltip
-			display: block
-			// box-shadow: 0 0 10px 10px #000
-			background: #000
+        .close_filter--tooltip
+            display: block
+            // box-shadow: 0 0 10px 10px #000
+            background: #000
 
-	
-	&.filter_hidden
-		.filter_arrow--triangle
-			+rotate(180)
+    &.filter_hidden
+        .filter_arrow--triangle
+            +rotate(180)
 
-		.filter_arrow_block
-			.open_filter--tooltip
-				display: block
+        .filter_arrow_block
+            .open_filter--tooltip
+                display: block
 
-			.close_filter--tooltip
-				display: none
+            .close_filter--tooltip
+                display: none
 
 .news_item_img_wrap
-	background: #131415
+    background: #131415
 
 .comparison__block--table
-	max-width: 100%
-	font-size: 13px
+    max-width: 100%
+    font-size: 13px
 
-	td
-		width: 210px
-		box-sizing: border-box
-		border-right: 1px solid #f1f1f1
-		padding: 5px 20px
-		vertical-align: top
-		line-height: 1.3
+    td
+        width: 210px
+        box-sizing: border-box
+        border-right: 1px solid #f1f1f1
+        padding: 5px 20px
+        vertical-align: top
+        line-height: 1.3
 
-	.col_name
-		padding-left: 0
+    .col_name
+        padding-left: 0
 
-	.wrapper_checkbox_comparison
-		padding-left: 0
+    .wrapper_checkbox_comparison
+        padding-left: 0
+
 .comparison_pop--img_wrapper
-	text-align: center
-	padding-bottom: 15px
-	position: relative
+    text-align: center
+    padding-bottom: 15px
+    position: relative
 
-	img
-		height: 180px
+    img
+        height: 180px
 
 .close_cross_icon
-	+sprite(close_black)
-	position: absolute
-	top: 0
-	left: 0
-	cursor: pointer
+    +sprite(close_black)
+    position: absolute
+    top: 0
+    left: 0
+    cursor: pointer
 
 .close_cross_icon:hover
-	+sprite(close_red)
-	position: absolute
-	top: 0
-	left: 0
+    +sprite(close_red)
+    position: absolute
+    top: 0
+    left: 0
 
 .icon_plus_wrap
-	position: absolute
-	top: 2px
-	left: 0
-	display: block
-	width: 30px
-	height: 30px
+    position: absolute
+    top: 2px
+    left: 0
+    display: block
+    width: 30px
+    height: 30px
 
-	.icon_plus
-		+trans
-		+sprite(plus_gray_big, $pos: "abs_middle")
+    .icon_plus
+        +trans
+        +sprite(plus_gray_big, $pos: "abs_middle")
 
-	.icon_plus_hover
-		+trans
-		+sprite(plus_red_big, $pos: "abs_middle")
-		opacity: 0
+    .icon_plus_hover
+        +trans
+        +sprite(plus_red_big, $pos: "abs_middle")
+        opacity: 0
 
-	.icon_minus
-		+trans
-		+sprite(minus_black_big, $pos: "abs_middle")
-		opacity: 0
+    .icon_minus
+        +trans
+        +sprite(minus_black_big, $pos: "abs_middle")
+        opacity: 0
 
-	.icon_minus_hover
-		+trans
-		+sprite(minus_red_big, $pos: "abs_middle")
-		opacity: 0
-
+    .icon_minus_hover
+        +trans
+        +sprite(minus_red_big, $pos: "abs_middle")
+        opacity: 0
 
 .js-full-screen
-	.hidden
-		display: none
+    .hidden
+        display: none
 
-	.tab-pane
-		display: none
-		text-align: center
+    .tab-pane
+        display: none
+        text-align: center
 
-		&.active
-			display: block
+        &.active
+            display: block
 
 .product-viewer
-	position: fixed
-	top: 0
-	left: 0
-	width: 100%
-	height: 100%
-	z-index: 200
-	background: #000
-	overflow: auto
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 200
+    background: #000
+    overflow: auto
 
-	.media
-		top: 10px
-		bottom: 120px
-		overflow: hidden
-		width: 100%
-		text-align: center
-		position: fixed
-		img
-			margin: 0 auto
-			max-width: 100%
+    .media
+        top: 10px
+        bottom: 120px
+        overflow: hidden
+        width: 100%
+        text-align: center
+        position: fixed
+        img
+            margin: 0 auto
+            max-width: 100%
 
-	.menu
-		position: absolute
-		bottom: 5px
-		width: 100%
-		left: 0
-		text-align: center
-		background: #000
+    .menu
+        position: absolute
+        bottom: 5px
+        width: 100%
+        left: 0
+        text-align: center
+        background: #000
 
-		img
-			height: 100px
-			width: auto
-			display: inline-block
-			vertical-align: middle
-			cursor: pointer
-			margin: 0 5px
+        img
+            height: 100px
+            width: auto
+            display: inline-block
+            vertical-align: middle
+            cursor: pointer
+            margin: 0 5px
 
-	.icon_close--wrap
-		position: absolute
-		top: 20px
-		right: 20px
-		width: 30px
-		height: 30px
-		cursor: pointer
+    .icon_close--wrap
+        position: absolute
+        top: 20px
+        right: 20px
+        width: 30px
+        height: 30px
+        cursor: pointer
 
-		.icon-close
-			+trans
-			+sprite(close_gray, $pos:"abs_middle")
-		.icon-close--hover
-			+trans
-			+sprite(close_red, $pos:"abs_middle")
-			opacity: 0
+        .icon-close
+            +trans
+            +sprite(close_gray, $pos: "abs_middle")
+        .icon-close--hover
+            +trans
+            +sprite(close_red, $pos: "abs_middle")
+            opacity: 0
 
-		&:hover
-			.icon-close	
-				opacity: 0
-			.icon-close--hover
-				opacity: 1
+        &:hover
+            .icon-close
+                opacity: 0
+            .icon-close--hover
+                opacity: 1
 
 .js-full-screen
-	.tab-pane
-		line-height: 650px
-		font-size: 0
-		letter-spacing: -1px
-	.big-picture
-		max-width: 100%
-		vertical-align: middle
-
-
+    .tab-pane
+        line-height: 650px
+        font-size: 0
+        letter-spacing: -1px
+    .big-picture
+        max-width: 100%
+        vertical-align: middle
 
 .product-images-icons
-	.tab-trigger
-		display: inline-block
-		vertical-align: middle
-		margin: 0 5px
-		font-size: 0
+    .tab-trigger
+        display: inline-block
+        vertical-align: middle
+        margin: 0 5px
+        font-size: 0
 
-		a
-			img
-				opacity: 0.5
-				+trans
+        a
+            img
+                opacity: 0.5
+                +trans
 
-				&:hover
-					opacity: 1
+                &:hover
+                    opacity: 1
 
-			&.active
-				img
-					opacity: 1
+            &.active
+                img
+                    opacity: 1
 
-
-		img
-			height: 90px
-
-.one_click_order_popup
-	.line_form_title
-		font-family: $pnr
-		font-size: 15px
-
+        img
+            height: 90px
 
 .one_click_order_popup
-	.popup_content
-		padding: 40px
-		width: 400px
+    .line_form_title
+        font-family: $pnr
+        font-size: 15px
 
-	.standard_form_button
-		margin-top: 30px
+.one_click_order_popup
+    .popup_content
+        padding: 40px
+        width: 400px
 
+    .standard_form_button
+        margin-top: 30px
 
 .juwelry_big_bg
-	+retina-bg('cat_image5.jpg', 'cat_image5@2x.jpg')
-	background-size: auto
-	background-position: center center
+    +retina-bg('cat_image5.jpg', 'cat_image5@2x.jpg')
+    background-size: auto
+    background-position: center center
 
 .women_big_bg
-	+retina-bg('cat_image1.jpg', 'cat_image1@2x.jpg')
-	background-size: auto
-	background-position: center center
+    +retina-bg('cat_image1.jpg', 'cat_image1@2x.jpg')
+    background-size: auto
+    background-position: center center
 
 .man_big_bg
-	+retina-bg('cat_image3.jpg', 'cat_image3@2x.jpg')
-	background-size: auto
-	background-position: center center
+    +retina-bg('cat_image3.jpg', 'cat_image3@2x.jpg')
+    background-size: auto
+    background-position: center center
 
 .ceramic_big_bg
-	+retina-bg('cat_image4.jpg', 'cat_image4@2x.jpg')
-	background-size: auto
-	background-position: center center
+    +retina-bg('cat_image4.jpg', 'cat_image4@2x.jpg')
+    background-size: auto
+    background-position: center center
 
 .corbel_big_bg
-	+retina-bg('cat_image2.jpg', 'cat_image2@2x.jpg')
-	background-size: auto
-	background-position: center center
-
+    +retina-bg('cat_image2.jpg', 'cat_image2@2x.jpg')
+    background-size: auto
+    background-position: center center
 
 @import responsive

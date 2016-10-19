@@ -20,6 +20,8 @@ line_comments = false
 
 preferred_syntax = :sass
 
+sourcemap = true
+
 
 # ===================
 # Uncomment this part to make sprite name static, icons-123asda.png -> icons.png
