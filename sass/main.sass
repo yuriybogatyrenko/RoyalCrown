@@ -83,6 +83,7 @@ html, body
     min-width: 980px
     padding-bottom: 272px
     -webkit-overflow-scrolling: touch
+    padding-top: 135px
 
 .w59percent
     width: 638px
@@ -226,9 +227,6 @@ html, body
     text-transform: uppercase
     padding: 0
     letter-spacing: -0.2px
-    position: absolute
-    top: 0
-    left: 0
     width: 100%
     height: 70px
     line-height: 70px
@@ -348,6 +346,23 @@ html, body
             text-decoration: underline
     .main_slider, .owl-wrapper
         height: 670px
+
+    .main_slider
+        &:before
+            +sprite(icon-royalcrown-logo)
+            display: inline-block
+            content: ''
+            position: absolute
+            top: 50%
+            left: 50%
+            -webkit-transform: translateX(-50%)
+            -moz-transform: translateX(-50%)
+            -ms-transform: translateX(-50%)
+            -o-transform: translateX(-50%)
+            transform: translateX(-50%)
+            z-index: 5
+            margin-top: -100px
+
     .owl-controls
         position: absolute
         width: 100%
@@ -487,7 +502,9 @@ html, body
 .main_header
     color: #fff
     background: #000
-    position: relative
+    position: fixed
+    left: 0
+    right: 0
     top: 0
     z-index: 160
 
@@ -532,29 +549,30 @@ html, body
     background: #000
 
 .header_popup_wrapper
-    position: absolute
-    top: 172px
+    //position: absolute
+    //top: 172px
     z-index: 500
     right: 0
     left: 0
 
-.header__popup-placeholder
-    height: 65px
+//.header__popup-placeholder
+//    height: 65px
 
 body
     -webkit-overflow-scrolling: touch
     &.inside_page
         .main_header
-            padding-top: 70px
+            //padding-top: 70px
 
         .main_header_content
             border-top: none
 
-        .header_popup_wrapper
-            position: absolute
-            left: 0
-            right: 0
-            top: 70px
+
+        //.header_popup_wrapper
+        //    position: absolute
+        //    left: 0
+        //    right: 0
+        //    top: 70px
 
     &.min_header
         .promo_code_section
@@ -583,12 +601,12 @@ body
 
 
         &:not(.inside_page), &.inside_fixed
-            .header_popup_wrapper
-                position: fixed
-                top: 0 !important
-                bottom: auto
-                left: 0
-                right: 0
+            //.header_popup_wrapper
+            //    position: fixed
+            //    top: 0 !important
+            //    bottom: auto
+            //    left: 0
+            //    right: 0
 
 
         .popup_open
@@ -609,6 +627,7 @@ body
     -webkit-transition: background-color 0.5s ease
     -ms-transition: background-color 0.5s ease
     -o-transition: background-color 0.5s ease
+    width: 100%
 
     .fixed_header_bg
         position: absolute
